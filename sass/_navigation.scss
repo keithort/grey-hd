@@ -1,0 +1,23 @@
+nav {
+  .header & {
+    a.menu {
+      @include tablet {
+        display: none;
+      }
+    }
+    & > ul {
+      display: none;
+      @include tablet {
+        display: block;
+      }
+      ul {
+        display: none;
+      }
+      li {
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+      }
+    }
+  }
+}
