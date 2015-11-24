@@ -1,8 +1,36 @@
 .product_details {
+  header {
+    &.hero {
+      line-height: 0;
+      @include tablet {
+        display: inline-block;
+        width: 46%;
+        vertical-align: top;
+      }
+    }
+  }
   article {
-    &.dek {
+    &.dek {      
       padding: 0 25px;
       text-align: center;
+      @include tablet {
+        display: inline-block;
+        margin-top: 4%;
+        width: 53%;
+        vertical-align: top;
+      }
+      h4 {
+        margin: 5% 0 15%;
+      }
+    }
+  }
+  .extras {
+    clear: both;
+
+    @include tablet {
+      align-items: stretch;
+      @include flexbox();
+      flex-flow: row wrap;
     }
   }
   aside {
@@ -10,6 +38,18 @@
       line-height: 0;
       margin: 0 auto;
       position: relative;
+      @include tablet {
+        float: left;
+        margin: 0 0 0 16%;
+        max-width: calc(84% - 70px);
+        vertical-align: top;
+      }
+      img {
+        @include tablet {
+          margin: 0 auto;
+          max-width: 95%;
+        }
+      }
       footer {
         background-color: $color-black;
         bottom: 0;
@@ -21,10 +61,21 @@
         text-align: center;
         text-transform: uppercase;
         width: calc(100% - 30px);
+        @include tablet {
+          font-size: 17px;
+          margin: 0 auto;
+          width: 100%;
+        }
       }
     }
     &.sizes {
+      color: $color-grey;
       text-align: center;
+      @include tablet {
+        float: right;
+        margin-top: 25%;
+        width: 60px;
+      }
       ul {
         margin: 0;
         padding: 0;
@@ -32,24 +83,118 @@
       li {
         display: inline-block;
         list-style: none;
+        text-align: center;
         @include tablet {
           display: block;
         }
+      }
+      img {
+        max-width: 100%;
       }
     }
     &.discover {
       line-height: 0;
       position: relative;
+      &.recipes {
+        @include tablet {
+          display: none;
+        }
+      }
+      &.similar {
+        display: none;
+        @include tablet {
+          display: block;
+          @include flex(2 0 61.5%);
+        }
+      }
+      &.more {
+        @include tablet {
+          @include flex(1 0 37%);
+        }
+      }
+      .copy {
+        color: $color-white;
+        font-size: 12px;
+        line-height: 1.25;
+        padding: 0 25%;
+        position: absolute;
+        text-align: center;
+        text-transform: lowercase;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        @include tablet {
+          font-size: 17px;
+        }
+        p + a {
+          border: 1px solid $color-white;
+          display: inline-block;
+          font-size: 10px;
+          line-height: 4;
+          margin: 1% 5%;
+          text-transform: uppercase;
+          @include tablet {            
+            font-size: 14px;
+            line-height: 3;
+            padding: 0 15%;
+          }
+        }
+      }
       a {
         color: $color-white;
         display: block;
         font-size: 28px;
-        position: absolute;
         text-align: center;
-        text-decoration: none;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 100%;
+      }
+    }
+    &.also-like {
+      clear: both;
+      display: none;            
+      @include tablet {
+        display: block;
+        @include flex(1 0 100%);
+      }
+      h3 {
+        background-color: $color-black;
+        color: $color-white;
+        font-size: 13px;
+        line-height: 45px;
+        margin: 0;
+        padding: 0 30px;
+        span {
+          color: $color-lightgrey;
+          float: right;
+        }
+        ul {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+        li {
+          display: inline-block;
+        }
+        a {
+          margin: 0 10px -5px;
+        }
+      }
+      div {
+        background-color: $color-black;
+        align-items: center;
+        @include flexbox();
+        flex-flow: row wrap;
+        & > div {
+          @include flex(1 0 20%);
+          line-height: 0;
+          width: 20%;
+        }
+      }
+      .see-more {
+        line-height: 1;
+        a {
+          color: $color-white;
+          display: block;
+          margin: 0 auto;
+        }
       }
     }
   }
