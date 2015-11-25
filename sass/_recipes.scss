@@ -12,7 +12,7 @@
     @include tablet {
       font-size: 30px;
       margin-bottom: 75px;
-      padding-left: 100px;    
+      padding-left: 160px;    
     }
     img {
       display: none;
@@ -74,37 +74,47 @@
     padding: 5% 0;
     position: relative;
     text-align: center;
-    a {
-      &.arrow {
-        display: inline-block;
-        height: 9px;
-        margin: 0 10px;
-        width: 9px;
-        @include tablet {
-          height: 48px;
-          margin: -24px 0 0 0;
-          position: absolute;
-          top: 50%;
-          width: 47px;
-        }
-        &.prev {
-          background: url('../images/instructions-arrows-mobile-prev.jpg') 0 0 no-repeat;
-          background-size: contain;
-          @include tablet {
-            background: url('../images/instructions-arrow-prev.png') 0 0 no-repeat;
-            background-size: contain;
-            left: 0;
-          }
-        }
-        &.next {
-          background: url('../images/instructions-arrows-mobile-next.jpg') 0 0 no-repeat;
-          background-size: contain;
-          @include tablet {
-            background: url('../images/instructions-arrow-next.png') 0 0 no-repeat;
-            background-size: contain;
-            right: 0;
-          }
-        }
+    .owl-controls {
+      position: absolute;
+      top: -15px;
+      width: 100%;
+      @include tablet {
+        top: 45%;
+      }
+    }
+    .owl-prev,
+    .owl-next {
+      display: inline-block;
+      height: 9px;
+      margin: 0 10px;
+      position: absolute;
+      top: 0;
+      width: 9px;
+      @include tablet {
+        height: 48px;
+        margin: -24px 0 0 0;
+        top: 50%;
+        width: 47px;
+      }
+    }
+    .owl-prev {
+      background: url('../images/instructions-arrows-mobile-prev.jpg') 0 0 no-repeat;
+      background-size: contain;
+      left: 10%;
+      @include tablet {
+        background: url('../images/instructions-arrow-prev.png') 0 0 no-repeat;
+        background-size: contain;
+        left: 0;
+      }
+    }
+    .owl-next {
+      background: url('../images/instructions-arrows-mobile-next.jpg') 0 0 no-repeat;
+      background-size: contain;
+      right: 10%;
+      @include tablet {
+        background: url('../images/instructions-arrow-next.png') 0 0 no-repeat;
+        background-size: contain;
+        right: 0;
       }
     }
     header {
@@ -137,40 +147,26 @@
         font-size: 16px;
       }
     }
-    a {
-      &.arrow {
-        display: none;
-        height: 19px;
-        position: absolute;
-        top: 25px;
-        width: 10px;
-        @include tablet {
-          display: inline-block;
-        }
-        &.prev {
-          background: url('../images/recipes-more-arrows-prev.jpg') 0 0 no-repeat;
-          background-size: contain;
-          left: 20%;
-        }
-        &.next {
-          background: url('../images/recipes-more-arrows-next.jpg') 0 0 no-repeat;
-          background-size: contain;
-          right: 20%;
-        }
+    .owl-prev,
+    .owl-next {
+      display: none;
+      height: 19px;
+      position: absolute;
+      top: -50px;
+      width: 10px;
+      @include tablet {
+        display: inline-block;
       }
     }
-    img {
-      display: inline-block;
-      &:nth-child(n+2) {
-        display: none;        
-        @include tablet {
-          display: inline-block;
-          float: left;
-        }
-      }
-      @include tablet {
-        width: 33.3%;
-      }
+    .owl-prev {
+      background: url('../images/recipes-more-arrows-prev.jpg') 0 0 no-repeat;
+      background-size: contain;
+      left: 20%;
+    }
+    .owl-next {
+      background: url('../images/recipes-more-arrows-next.jpg') 0 0 no-repeat;
+      background-size: contain;
+      right: 20%;
     }
   }
 }

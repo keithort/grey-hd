@@ -361,7 +361,7 @@ html {
 
 body {
   color: #333333;
-  font-family: helvetica, "Helvetica", Verdana, "Lucida Grande", "Lucida Sans", serif;
+  font-family: "Gotham SSm A", "Helvetica", Verdana, "Lucida Grande", "Lucida Sans", serif;
   font-size: 13px; }
 
 img {
@@ -519,6 +519,39 @@ nav.secondary {
       nav.secondary ul a.active {
         font-weight: 700; }
 
+a.find-flavor {
+  background-color: #000000;
+  clear: both;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 2.5;
+  margin: 0 15px;
+  text-align: center;
+  text-transform: uppercase; }
+  @media (min-width: 750px) {
+    a.find-flavor {
+      font-size: 15px;
+      margin: 0 auto; } }
+a.nutritional-table {
+  clear: both;
+  color: #a5a5a5;
+  display: inline-block;
+  font-size: 18px;
+  margin: 5% auto;
+  width: 100%; }
+  a.nutritional-table:before, a.nutritional-table:after {
+    border-bottom: 8px solid #a5a5a5;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid transparent;
+    bottom: 0;
+    content: '';
+    display: inline-block;
+    height: 0;
+    margin: 0 5%;
+    width: 0; }
+
 .product_details header.hero {
   line-height: 0; }
   @media (min-width: 750px) {
@@ -535,8 +568,59 @@ nav.secondary {
       margin-top: 4%;
       width: 53%;
       vertical-align: top; } }
+  @media (min-width: 750px) {
+    .product_details article.dek h3 {
+      font-size: 30px;
+      font-weight: 400;
+      letter-spacing: 1px; } }
   .product_details article.dek h4 {
-    margin: 5% 0 15%; }
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5% 10% 15%; }
+@media (min-width: 750px) {
+  .product_details section.overview a.nutritional-table {
+    margin-left: 2%; } }
+.product_details section.nutrition {
+  color: #a5a5a5;
+  display: none;
+  margin-top: 15%; }
+  @media (min-width: 750px) {
+    .product_details section.nutrition header {
+      display: inline-block;
+      text-align: left;
+      vertical-align: top;
+      width: 32%; } }
+  .product_details section.nutrition h5 {
+    font-size: 20px;
+    margin: 0 0 20px 0; }
+  @media (min-width: 750px) {
+    .product_details section.nutrition .table {
+      display: inline-block;
+      vertical-align: top;
+      width: 67%; } }
+  .product_details section.nutrition .row {
+    border-bottom: 1px solid #a5a5a5;
+    line-height: 2; }
+    .product_details section.nutrition .row:last-child {
+      border-bottom: 0 none; }
+    .product_details section.nutrition .row div {
+      display: inline-block;
+      text-align: left; }
+  .product_details section.nutrition .title,
+  .product_details section.nutrition .amount {
+    width: 44%; }
+  .product_details section.nutrition .percentage {
+    width: 9%; }
+  .product_details section.nutrition .vitamin {
+    width: 24%; }
+.product_details section .ingredients {
+  border-top: 1px solid #a5a5a5;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px 15%; }
+.product_details section .find-flavor {
+  margin-top: 20%;
+  width: 70.5%; }
 .product_details .extras {
   clear: both; }
   @media (min-width: 750px) {
@@ -562,21 +646,13 @@ nav.secondary {
     .product_details aside.product img {
       margin: 0 auto;
       max-width: 95%; } }
-  .product_details aside.product footer {
-    background-color: #000000;
+  .product_details aside.product .find-flavor {
     bottom: 0;
-    color: #ffffff;
-    font-size: 11px;
-    line-height: 2.5;
-    margin: 0 15px;
+    left: 0;
     position: absolute;
-    text-align: center;
-    text-transform: uppercase;
     width: calc(100% - 30px); }
     @media (min-width: 750px) {
-      .product_details aside.product footer {
-        font-size: 17px;
-        margin: 0 auto;
+      .product_details aside.product .find-flavor {
         width: 100%; } }
 .product_details aside.sizes {
   color: #a5a5a5;
@@ -624,6 +700,8 @@ nav.secondary {
   .product_details aside.discover .copy {
     color: #ffffff;
     font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
     line-height: 1.25;
     padding: 0 25%;
     position: absolute;
@@ -644,13 +722,15 @@ nav.secondary {
       text-transform: uppercase; }
       @media (min-width: 750px) {
         .product_details aside.discover .copy p + a {
-          font-size: 14px;
+          font-size: 12px;
           line-height: 3;
           padding: 0 15%; } }
   .product_details aside.discover a {
     color: #ffffff;
     display: block;
-    font-size: 28px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 2;
     text-align: center; }
 .product_details aside.also-like {
   clear: both;
@@ -667,12 +747,22 @@ nav.secondary {
     background-color: #000000;
     color: #ffffff;
     font-size: 13px;
+    font-weight: 400;
     line-height: 45px;
     margin: 0;
     padding: 0 30px; }
+    @media (min-width: 750px) {
+      .product_details aside.also-like h3 {
+        font-size: 18px; } }
     .product_details aside.also-like h3 span {
       color: #959595;
-      float: right; }
+      float: right;
+      text-transform: uppercase; }
+      @media (min-width: 750px) {
+        .product_details aside.also-like h3 span {
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 1px; } }
     .product_details aside.also-like h3 ul {
       display: inline-block;
       margin: 0;
@@ -703,6 +793,165 @@ nav.secondary {
     .product_details aside.also-like .see-more a {
       color: #ffffff;
       display: block;
+      font-size: 16px;
       margin: 0 auto; }
+
+.recipes {
+  margin-top: 20px; }
+  @media (min-width: 750px) {
+    .recipes {
+      margin-top: 75px; } }
+  .recipes > header {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center; }
+    @media (min-width: 750px) {
+      .recipes > header {
+        font-size: 30px;
+        margin-bottom: 75px;
+        padding-left: 160px; } }
+    .recipes > header img {
+      display: none;
+      float: right;
+      height: initial;
+      margin-right: 5%;
+      max-width: 100px;
+      width: initial; }
+      @media (min-width: 750px) {
+        .recipes > header img {
+          display: inline-block; } }
+  .recipes .hero {
+    line-height: 0; }
+  @media (min-width: 750px) {
+    .recipes .prep {
+      align-items: stretch;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex; } }
+  .recipes .prep > div {
+    -webkit-box-flex: 1 0 50%;
+    -moz-box-flex: 1 0 50%;
+    -webkit-flex: 1 0 50%;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%;
+    padding: 5% 2.5%; }
+  .recipes .prep .ingredients {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-align: center; }
+    .recipes .prep .ingredients h4 {
+      font-size: 16px;
+      font-weight: 400;
+      margin: 0;
+      text-transform: uppercase; }
+  .recipes .prep .serving {
+    background: url("../images/discover-more.jpg") center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: right;
+    text-transform: uppercase; }
+    .recipes .prep .serving span {
+      font-size: 25px;
+      font-weight: 700; }
+  .recipes .instructions {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 5% 0;
+    position: relative;
+    text-align: center; }
+    .recipes .instructions .owl-controls {
+      position: absolute;
+      top: -15px;
+      width: 100%; }
+      @media (min-width: 750px) {
+        .recipes .instructions .owl-controls {
+          top: 45%; } }
+    .recipes .instructions .owl-prev,
+    .recipes .instructions .owl-next {
+      display: inline-block;
+      height: 9px;
+      margin: 0 10px;
+      position: absolute;
+      top: 0;
+      width: 9px; }
+      @media (min-width: 750px) {
+        .recipes .instructions .owl-prev,
+        .recipes .instructions .owl-next {
+          height: 48px;
+          margin: -24px 0 0 0;
+          top: 50%;
+          width: 47px; } }
+    .recipes .instructions .owl-prev {
+      background: url("../images/instructions-arrows-mobile-prev.jpg") 0 0 no-repeat;
+      background-size: contain;
+      left: 10%; }
+      @media (min-width: 750px) {
+        .recipes .instructions .owl-prev {
+          background: url("../images/instructions-arrow-prev.png") 0 0 no-repeat;
+          background-size: contain;
+          left: 0; } }
+    .recipes .instructions .owl-next {
+      background: url("../images/instructions-arrows-mobile-next.jpg") 0 0 no-repeat;
+      background-size: contain;
+      right: 10%; }
+      @media (min-width: 750px) {
+        .recipes .instructions .owl-next {
+          background: url("../images/instructions-arrow-next.png") 0 0 no-repeat;
+          background-size: contain;
+          right: 0; } }
+    .recipes .instructions header {
+      text-transform: uppercase; }
+    .recipes .instructions .step {
+      margin: 0 auto;
+      text-align: justify;
+      width: 90%; }
+      @media (min-width: 750px) {
+        .recipes .instructions .step {
+          max-width: 575px;
+          text-align: center; } }
+      .recipes .instructions .step > header {
+        font-weight: 700;
+        margin: 5% 0; }
+  .recipes .more-recipes header {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 5;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase; }
+    @media (min-width: 750px) {
+      .recipes .more-recipes header {
+        font-size: 16px; } }
+  .recipes .more-recipes .owl-prev,
+  .recipes .more-recipes .owl-next {
+    display: none;
+    height: 19px;
+    position: absolute;
+    top: -50px;
+    width: 10px; }
+    @media (min-width: 750px) {
+      .recipes .more-recipes .owl-prev,
+      .recipes .more-recipes .owl-next {
+        display: inline-block; } }
+  .recipes .more-recipes .owl-prev {
+    background: url("../images/recipes-more-arrows-prev.jpg") 0 0 no-repeat;
+    background-size: contain;
+    left: 20%; }
+  .recipes .more-recipes .owl-next {
+    background: url("../images/recipes-more-arrows-next.jpg") 0 0 no-repeat;
+    background-size: contain;
+    right: 20%; }
 
 /*# sourceMappingURL=site.css.map */
