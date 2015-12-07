@@ -603,14 +603,19 @@ div.disclaimers {
   font-weight: 400; }
 .product_details article.ingredients {
   display: none;
+  padding-top: 2%;
   position: relative; }
+  .product_details article.ingredients > h1,
+  .product_details article.ingredients > h5 {
+    margin: .1% 0;
+    text-align: center; }
 .product_details section.disclaimers {
   color: #a5a5a5;
   text-align: center; }
   @media (min-width: 750px) {
     .product_details section.disclaimers {
       display: inline-block;
-      padding: 11.5% 5% 10% 2.5%;
+      padding: 6.5% 5% 10% 2.5%;
       vertical-align: top;
       width: 39%; } }
   .product_details section.disclaimers p {
@@ -623,7 +628,7 @@ div.disclaimers {
   @media (min-width: 750px) {
     .product_details section.nutrition {
       display: inline-block;
-      padding: 10% 2.5% 10% 5%;
+      padding: 5% 2.5% 10% 5%;
       width: 60%; } }
   @media (min-width: 750px) {
     .product_details section.nutrition header {

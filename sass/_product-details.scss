@@ -38,7 +38,13 @@
     }
     &.ingredients {
       display: none;
+      padding-top: 2%;
       position: relative;
+      > h1,
+      > h5 {
+        margin: .1% 0;
+        text-align: center;
+      }
     }
   }
   section {
@@ -47,7 +53,7 @@
       text-align: center;
       @include tablet {
         display: inline-block;
-        padding: 11.5% 5% 10% 2.5%;
+        padding: 6.5% 5% 10% 2.5%;
         vertical-align: top;
         width: 39%;        
       }
@@ -63,7 +69,7 @@
       color: $color-grey;
       @include tablet {
         display: inline-block;
-        padding: 10% 2.5% 10% 5%;
+        padding: 5% 2.5% 10% 5%;
         width: 60%;
       }
       header {
