@@ -2,21 +2,20 @@
   header {
     &.hero {
       line-height: 0;
+      position: relative;
       @include tablet {
         display: inline-block;
-        width: 46%;
+        width: 39.3181818%;
         vertical-align: top;
       }
     }
   }
   article {
-    &.dek {      
-      padding: 0 25px;
-      text-align: center;
+    &.dek {
       @include tablet {
         display: inline-block;
-        margin-top: 4%;
-        width: 53%;
+        margin: 7.5% 5%;
+        width: 50%;
         vertical-align: top;
       }
       h3 {
@@ -27,30 +26,53 @@
         }
       }
       h4 {
+        color: $color-darkgrey;
         font-size: 18px;
         font-weight: 400;
-        margin: 5% 10% 15%;
       }
+      h5 {
+        color: $color-darkgrey;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    &.ingredients {
+      display: none;
+      position: relative;
     }
   }
   section {
-    &.overview {
-      a.nutritional-table {
-        @include tablet {
-          margin-left: 2%;
+    &.disclaimers {
+      color: $color-grey;
+      text-align: center;
+      @include tablet {
+        display: inline-block;
+        padding: 11.5% 5% 10% 2.5%;
+        vertical-align: top;
+        width: 39%;        
+      }
+      p {
+        font-size: 10px;
+        &.options {
+          font-size: 20px;
+          font-weight: 700;
         }
       }
     }
     &.nutrition {
       color: $color-grey;
-      display: none;
-      margin-top: 15%;
+      @include tablet {
+        display: inline-block;
+        padding: 10% 2.5% 10% 5%;
+        width: 60%;
+      }
       header {
         @include tablet {
           display: inline-block;
+          padding-right: 1%;
           text-align: left;
           vertical-align: top;
-          width: 32%;
+          width: 26%;
         }
       }
       h5 {
@@ -59,9 +81,11 @@
       }
       .table {
         @include tablet {
+          border-right: 1px solid $color-grey;
           display: inline-block;
+          padding: 0 10% 5% 0;
           vertical-align: top;
-          width: 67%;
+          width: 73%;
         }
       }
       .row {
@@ -86,14 +110,15 @@
         width: 24%;
       }
     }
+    &.overview {
+    }
     .ingredients {
       border-top: 1px solid $color-grey;
       font-size: 20px;
-      margin-top: 10px;
       padding: 10px 15%;
+      width: 89.5%;
     }
-    .find-flavor {     
-      margin-top: 20%; 
+    .find-flavor {
       width: 70.5%;
     }
   }
@@ -106,54 +131,82 @@
     }
   }
   aside {
-    &.product {
-      line-height: 0;
-      margin: 0 auto;
-      position: relative;
+    &.also-like {
+      clear: both;
+      display: none;            
       @include tablet {
-        float: left;
-        margin: 0 0 0 16%;
-        max-width: calc(84% - 70px);
-        vertical-align: top;
+        display: block;
+        @include flex(1 0 100%);
       }
-      img {
+      h3 {
+        background-color: $color-black;
+        color: $color-white;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 45px;
+        margin: 0;
+        padding: 0 30px;
         @include tablet {
-          margin: 0 auto;
-          max-width: 95%;
+          font-size: 18px;
+        }
+        span {
+          color: $color-lightgrey;
+          float: right;
+          text-transform: uppercase;
+          @include tablet {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+          }
+        }
+        ul {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+        }
+        li {
+          display: inline-block;
+        }
+        a {
+          margin: 0 10px -5px;
         }
       }
-      .find-flavor {
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        width: calc(100% - 30px);
-        @include tablet {
-          width: 100%;
+      div {
+        background-color: $color-black;
+        align-items: center;
+        @include flexbox();
+        flex-flow: row wrap;
+        & > div {
+          @include flex(1 0 20%);
+          line-height: 0;
+          width: 20%;
+        }
+      }
+      .see-more {
+        line-height: 1;
+        a {
+          color: $color-white;
+          display: block;
+          font-size: 16px;
+          margin: 0 auto;
         }
       }
     }
-    &.sizes {
-      color: $color-grey;
+    &.description {
+      display: inline-block;
+      max-width: 58%;
+      vertical-align: bottom;
+    }
+    &.disclaimers {
+      bottom: 10%;
+      left: 50%;      
+      position: absolute;
       text-align: center;
-      @include tablet {
-        float: right;
-        margin-top: 25%;
-        width: 60px;
-      }
-      ul {
-        margin: 0;
-        padding: 0;
-      }
-      li {
-        display: inline-block;
-        list-style: none;
-        text-align: center;
-        @include tablet {
-          display: block;
-        }
-      }
+      transform: translateX(-50%);
       img {
-        max-width: 100%;
+        display: inline-block;
+        margin: 0 5px;
+        max-width: 55px;
       }
     }
     &.discover {
@@ -215,63 +268,17 @@
         text-align: center;
       }
     }
-    &.also-like {
-      clear: both;
-      display: none;            
+    &.product {
+      line-height: 0;
+      margin: 0 auto;
       @include tablet {
-        display: block;
-        @include flex(1 0 100%);
+        display: inline-block;
+        margin-right: 7%;
+        max-width: 34%;
+        vertical-align: bottom;
       }
-      h3 {
-        background-color: $color-black;
-        color: $color-white;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 45px;
-        margin: 0;
-        padding: 0 30px;
+      img {
         @include tablet {
-          font-size: 18px;
-        }
-        span {
-          color: $color-lightgrey;
-          float: right;
-          text-transform: uppercase;
-          @include tablet {
-            font-size: 14px;
-            font-weight: 400;
-            letter-spacing: 1px;
-          }
-        }
-        ul {
-          display: inline-block;
-          margin: 0;
-          padding: 0;
-        }
-        li {
-          display: inline-block;
-        }
-        a {
-          margin: 0 10px -5px;
-        }
-      }
-      div {
-        background-color: $color-black;
-        align-items: center;
-        @include flexbox();
-        flex-flow: row wrap;
-        & > div {
-          @include flex(1 0 20%);
-          line-height: 0;
-          width: 20%;
-        }
-      }
-      .see-more {
-        line-height: 1;
-        a {
-          color: $color-white;
-          display: block;
-          font-size: 16px;
           margin: 0 auto;
         }
       }

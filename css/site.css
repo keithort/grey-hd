@@ -520,84 +520,128 @@ nav.secondary {
         font-weight: 700; }
 
 a.find-flavor {
-  background-color: #000000;
+  border: 1px solid #a5a5a5;
   clear: both;
-  color: #ffffff;
+  color: #333333;
   display: inline-block;
   font-size: 11px;
-  line-height: 2.5;
-  margin: 0 15px;
+  line-height: 3;
+  margin: 10% 0 0;
   text-align: center;
   text-transform: uppercase; }
   @media (min-width: 750px) {
     a.find-flavor {
-      font-size: 15px;
-      margin: 0 auto; } }
+      font-size: 15px; } }
 a.nutritional-table {
+  border-bottom: 1px solid #959595;
   clear: both;
-  color: #a5a5a5;
+  color: #959595;
   display: inline-block;
-  font-size: 18px;
-  margin: 5% auto;
-  width: 100%; }
-  a.nutritional-table:before, a.nutritional-table:after {
-    border-bottom: 8px solid #a5a5a5;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-top: 8px solid transparent;
+  font-size: 14px;
+  padding: 0 10px 0 0;
+  position: relative; }
+  a.nutritional-table:after {
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid #959595;
+    border-right: 0px solid transparent;
+    border-top: 4px solid transparent;
     bottom: 0;
     content: '';
     display: inline-block;
     height: 0;
-    margin: 0 5%;
+    position: absolute;
+    right: 0;
+    top: 5px;
     width: 0; }
+a.close {
+  color: #a5a5a5;
+  font-size: 20px;
+  position: absolute;
+  right: 2.5%;
+  text-decoration: none;
+  top: 5%; }
+
+div.disclaimers {
+  border: 1px solid #a5a5a5;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 3;
+  margin: 1%;
+  padding: 0 5%;
+  text-align: center;
+  width: 47.5%; }
+  @media (min-width: 750px) {
+    div.disclaimers {
+      font-size: 15px; } }
 
 .product_details header.hero {
-  line-height: 0; }
+  line-height: 0;
+  position: relative; }
   @media (min-width: 750px) {
     .product_details header.hero {
       display: inline-block;
-      width: 46%;
+      width: 39.3181818%;
       vertical-align: top; } }
-.product_details article.dek {
-  padding: 0 25px;
+@media (min-width: 750px) {
+  .product_details article.dek {
+    display: inline-block;
+    margin: 7.5% 5%;
+    width: 50%;
+    vertical-align: top; } }
+@media (min-width: 750px) {
+  .product_details article.dek h3 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px; } }
+.product_details article.dek h4 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400; }
+.product_details article.dek h5 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400; }
+.product_details article.ingredients {
+  display: none;
+  position: relative; }
+.product_details section.disclaimers {
+  color: #a5a5a5;
   text-align: center; }
   @media (min-width: 750px) {
-    .product_details article.dek {
+    .product_details section.disclaimers {
       display: inline-block;
-      margin-top: 4%;
-      width: 53%;
-      vertical-align: top; } }
-  @media (min-width: 750px) {
-    .product_details article.dek h3 {
-      font-size: 30px;
-      font-weight: 400;
-      letter-spacing: 1px; } }
-  .product_details article.dek h4 {
-    font-size: 18px;
-    font-weight: 400;
-    margin: 5% 10% 15%; }
-@media (min-width: 750px) {
-  .product_details section.overview a.nutritional-table {
-    margin-left: 2%; } }
+      padding: 11.5% 5% 10% 2.5%;
+      vertical-align: top;
+      width: 39%; } }
+  .product_details section.disclaimers p {
+    font-size: 10px; }
+    .product_details section.disclaimers p.options {
+      font-size: 20px;
+      font-weight: 700; }
 .product_details section.nutrition {
-  color: #a5a5a5;
-  display: none;
-  margin-top: 15%; }
+  color: #a5a5a5; }
+  @media (min-width: 750px) {
+    .product_details section.nutrition {
+      display: inline-block;
+      padding: 10% 2.5% 10% 5%;
+      width: 60%; } }
   @media (min-width: 750px) {
     .product_details section.nutrition header {
       display: inline-block;
+      padding-right: 1%;
       text-align: left;
       vertical-align: top;
-      width: 32%; } }
+      width: 26%; } }
   .product_details section.nutrition h5 {
     font-size: 20px;
     margin: 0 0 20px 0; }
   @media (min-width: 750px) {
     .product_details section.nutrition .table {
+      border-right: 1px solid #a5a5a5;
       display: inline-block;
+      padding: 0 10% 5% 0;
       vertical-align: top;
-      width: 67%; } }
+      width: 73%; } }
   .product_details section.nutrition .row {
     border-bottom: 1px solid #a5a5a5;
     line-height: 2; }
@@ -616,10 +660,9 @@ a.nutritional-table {
 .product_details section .ingredients {
   border-top: 1px solid #a5a5a5;
   font-size: 20px;
-  margin-top: 10px;
-  padding: 10px 15%; }
+  padding: 10px 15%;
+  width: 89.5%; }
 .product_details section .find-flavor {
-  margin-top: 20%;
   width: 70.5%; }
 .product_details .extras {
   clear: both; }
@@ -632,106 +675,6 @@ a.nutritional-table {
       display: -webkit-flex;
       display: flex;
       flex-flow: row wrap; } }
-.product_details aside.product {
-  line-height: 0;
-  margin: 0 auto;
-  position: relative; }
-  @media (min-width: 750px) {
-    .product_details aside.product {
-      float: left;
-      margin: 0 0 0 16%;
-      max-width: calc(84% - 70px);
-      vertical-align: top; } }
-  @media (min-width: 750px) {
-    .product_details aside.product img {
-      margin: 0 auto;
-      max-width: 95%; } }
-  .product_details aside.product .find-flavor {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    width: calc(100% - 30px); }
-    @media (min-width: 750px) {
-      .product_details aside.product .find-flavor {
-        width: 100%; } }
-.product_details aside.sizes {
-  color: #a5a5a5;
-  text-align: center; }
-  @media (min-width: 750px) {
-    .product_details aside.sizes {
-      float: right;
-      margin-top: 25%;
-      width: 60px; } }
-  .product_details aside.sizes ul {
-    margin: 0;
-    padding: 0; }
-  .product_details aside.sizes li {
-    display: inline-block;
-    list-style: none;
-    text-align: center; }
-    @media (min-width: 750px) {
-      .product_details aside.sizes li {
-        display: block; } }
-  .product_details aside.sizes img {
-    max-width: 100%; }
-.product_details aside.discover {
-  line-height: 0;
-  position: relative; }
-  @media (min-width: 750px) {
-    .product_details aside.discover.recipes {
-      display: none; } }
-  .product_details aside.discover.similar {
-    display: none; }
-    @media (min-width: 750px) {
-      .product_details aside.discover.similar {
-        display: block;
-        -webkit-box-flex: 2 0 61.5%;
-        -moz-box-flex: 2 0 61.5%;
-        -webkit-flex: 2 0 61.5%;
-        -ms-flex: 2 0 61.5%;
-        flex: 2 0 61.5%; } }
-  @media (min-width: 750px) {
-    .product_details aside.discover.more {
-      -webkit-box-flex: 1 0 37%;
-      -moz-box-flex: 1 0 37%;
-      -webkit-flex: 1 0 37%;
-      -ms-flex: 1 0 37%;
-      flex: 1 0 37%; } }
-  .product_details aside.discover .copy {
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.25;
-    padding: 0 25%;
-    position: absolute;
-    text-align: center;
-    text-transform: lowercase;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%; }
-    @media (min-width: 750px) {
-      .product_details aside.discover .copy {
-        font-size: 17px; } }
-    .product_details aside.discover .copy p + a {
-      border: 1px solid #ffffff;
-      display: inline-block;
-      font-size: 10px;
-      line-height: 4;
-      margin: 1% 5%;
-      text-transform: uppercase; }
-      @media (min-width: 750px) {
-        .product_details aside.discover .copy p + a {
-          font-size: 12px;
-          line-height: 3;
-          padding: 0 15%; } }
-  .product_details aside.discover a {
-    color: #ffffff;
-    display: block;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 2;
-    text-align: center; }
 .product_details aside.also-like {
   clear: both;
   display: none; }
@@ -795,6 +738,90 @@ a.nutritional-table {
       display: block;
       font-size: 16px;
       margin: 0 auto; }
+.product_details aside.description {
+  display: inline-block;
+  max-width: 58%;
+  vertical-align: bottom; }
+.product_details aside.disclaimers {
+  bottom: 10%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%); }
+  .product_details aside.disclaimers img {
+    display: inline-block;
+    margin: 0 5px;
+    max-width: 55px; }
+.product_details aside.discover {
+  line-height: 0;
+  position: relative; }
+  @media (min-width: 750px) {
+    .product_details aside.discover.recipes {
+      display: none; } }
+  .product_details aside.discover.similar {
+    display: none; }
+    @media (min-width: 750px) {
+      .product_details aside.discover.similar {
+        display: block;
+        -webkit-box-flex: 2 0 61.5%;
+        -moz-box-flex: 2 0 61.5%;
+        -webkit-flex: 2 0 61.5%;
+        -ms-flex: 2 0 61.5%;
+        flex: 2 0 61.5%; } }
+  @media (min-width: 750px) {
+    .product_details aside.discover.more {
+      -webkit-box-flex: 1 0 37%;
+      -moz-box-flex: 1 0 37%;
+      -webkit-flex: 1 0 37%;
+      -ms-flex: 1 0 37%;
+      flex: 1 0 37%; } }
+  .product_details aside.discover .copy {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    padding: 0 25%;
+    position: absolute;
+    text-align: center;
+    text-transform: lowercase;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%; }
+    @media (min-width: 750px) {
+      .product_details aside.discover .copy {
+        font-size: 17px; } }
+    .product_details aside.discover .copy p + a {
+      border: 1px solid #ffffff;
+      display: inline-block;
+      font-size: 10px;
+      line-height: 4;
+      margin: 1% 5%;
+      text-transform: uppercase; }
+      @media (min-width: 750px) {
+        .product_details aside.discover .copy p + a {
+          font-size: 12px;
+          line-height: 3;
+          padding: 0 15%; } }
+  .product_details aside.discover a {
+    color: #ffffff;
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 2;
+    text-align: center; }
+.product_details aside.product {
+  line-height: 0;
+  margin: 0 auto; }
+  @media (min-width: 750px) {
+    .product_details aside.product {
+      display: inline-block;
+      margin-right: 7%;
+      max-width: 34%;
+      vertical-align: bottom; } }
+  @media (min-width: 750px) {
+    .product_details aside.product img {
+      margin: 0 auto; } }
 
 .recipes {
   margin-top: 20px; }

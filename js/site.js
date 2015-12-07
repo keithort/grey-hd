@@ -1,10 +1,14 @@
 (function(){
-  $('section.nutrition').hide();
-  $('a.nutritional-table').on('click', function(el){
+
+  // Product Details
+  var infoHeight = $('.hero').height() > $('.dek').height() ? $('.hero').height() : $('.dek').height();
+  $('.overlay').append('article.ingredients { height: ' + infoHeight + 'px; }');
+  $('a.nutritional-table, a.close').on('click', function(el){
     el.preventDefault();
-    $('section.overview, section.nutrition').toggle();
+    $('header.hero, article.dek, article.ingredients').toggle();
   });
 
+  // Carousel configurations
   $('.instruction-carousel').owlCarousel({
     items: 1,
     nav: true,

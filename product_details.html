@@ -31,8 +31,8 @@
   </nav>
   <nav role="secondary" class="secondary">
     <ul>
-      <li><a href="">ICE CREAM</a></li>
-      <li><a href="" class="active">BARS</a></li>
+      <li><a href="" class="active">ICE CREAM</a></li>
+      <li><a href="">BARS</a></li>
       <li><a href="">GELATO</a></li>
       <li><a href="">SORBET</a></li>
       <li><a href="">FROZEN YOGURT</a></li>
@@ -42,28 +42,34 @@
 
 <main class="product_details">
   <header class="hero">
-    <img src="images/product-hero-temp.jpg" />
+    <img src="images/product-hero.jpg" />
+    <aside class="disclaimers">
+      <img src="images/disclaimer-u.png" alt="">
+      <img src="images/disclaimer-glutenfree.png" alt="">
+    </aside>
+    <aside class="social">
+      
+    </aside>
   </header>
   <article class="dek">
-    <h3>vanilla milk chocolate almond</h3>
     <section class="overview">
-      <h4>rich, creamy, and totally indulgent. made from the finest cocoa and pure, sweet cream, our chocolate ice cream is the ultimate experience.</h4>
       <aside class="product">
         <img src="images/product-packaging.jpg" />
+      </aside>
+      <aside class="description">
+        <h3>chocolate</h3>
+        <h4>rich, creamy, and totally indulgent. made from the finest cocoa and pure, sweet cream, our chocolate ice cream is the ultimate experience.</h4>
+        <h5>Available in quart, 14oz and cup sizes.</h5>
+        <a href="#" class="nutritional-table">See nutritional information</a>
         <a href="#" class="find-flavor">FIND FLAVOR</a>
       </aside>
-      <aside class="sizes">
-        <h5>SIZES</h5>
-        <ul>
-          <li><img src="images/sizes-bar.jpg" alt="" /></li>
-          <li><img src="images/sizes-snacksize.jpg" alt="" /></li>
-        </ul>
-      </aside>
-      <a href="#" class="nutritional-table">SEE NUTRITION</a>
     </section>
+  </article>
+  <article class="ingredients">
+    <a href="#" class="close">X</a> 
     <section class="nutrition">
       <header>
-        <h5>nutritional information</h5>
+        <h5>nutritional<br />information</h5>
         <p>amount per serving<br />
           serving size: 1/2 cup<br />
           calories: 260</p>
@@ -125,8 +131,16 @@
       <div class="ingredients">
         ingredients: cream, skim milk, sugar, cocoa processed with alkali, egg yolks
       </div>
-      <a href="#" class="find-flavor">FIND FLAVOR</a>
-      <a href="#" class="nutritional-table">CLOSE</a>
+    </section>
+    <section class="disclaimers">
+      <p class="options">see more gluten free and no-GMO options</p>
+      <div class="disclaimers">GLUTEN FREE</div>
+      <div class="disclaimers">no-GMO</div>
+      <p>SGS VERIFIED THE NESTLE PROCESS FOR MANUFACTURING<br />
+        THIS PRODUCT WITH NO GMO INGREDIENTS<br>
+        www.sgs.com/no-gmo</p>
+      <p>MILK &amp; CREAM FROM COWS NOT TREATED<br />
+        WITH THE GROWTH HORMONE rBST</p>
     </section>
   </article>
   <section class="extras">
@@ -199,8 +213,14 @@
   </section>
 </footer>
 
+
+<style class="overlay">
+</style>
+ 
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/picturefill.min.js"></script>
 <script type="text/javascript" src="js/site.js"></script>
+
+
 </body>
 </html>

@@ -1,38 +1,63 @@
 a {
   &.find-flavor {
-    background-color: $color-black;
+    border: 1px solid $color-grey;
     clear: both;
-    color: $color-white;
+    color: $color-darkgrey;
     display: inline-block;
     font-size: 11px;
-    line-height: 2.5;
-    margin: 0 15px;
+    line-height: 3;
+    margin: 10% 0 0;
     text-align: center;
     text-transform: uppercase;
     @include tablet {
       font-size: 15px;
-      margin: 0 auto;
     }
   }
   &.nutritional-table {
+    border-bottom: 1px solid $color-lightgrey;
     clear: both;
-    color: $color-grey;
+    color: $color-lightgrey;
     display: inline-block;
-    font-size: 18px;
-    margin: 5% auto;
-    width: 100%;
-    &:before,
+    font-size: 14px;
+    padding: 0 10px 0 0;
+    position: relative;
     &:after {
-      border-bottom: 8px solid $color-grey;
-      border-left: 4px solid transparent;
-      border-right: 4px solid transparent;
-      border-top: 8px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 6px solid $color-lightgrey;
+      border-right: 0px solid transparent;
+      border-top: 4px solid transparent;
       bottom: 0;
       content: '';
       display: inline-block;
       height: 0;
-      margin: 0 5%;
+      position: absolute;
+      right: 0;
+      top: 5px;
       width: 0;
     } 
+  }
+  &.close {
+    color: $color-grey;
+    font-size: 20px;
+    position: absolute;
+    right: 2.5%;
+    text-decoration: none;
+    top: 5%;
+  }
+}
+
+div {
+  &.disclaimers {
+    border: 1px solid $color-grey;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 3;
+    margin: 1%;
+    padding: 0 5%;
+    text-align: center;
+    width: 47.5%;
+    @include tablet {
+      font-size: 15px;
+    }
   }
 }
