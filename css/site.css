@@ -432,31 +432,31 @@ footer.main-footer {
   footer.main-footer .copyright {
     float: right; }
 
-a.icon {
+.icon {
   display: inline-block;
   height: 20px;
   margin: 0 5px; }
-  a.icon.white {
+  .icon.white {
     background: url("../images/icons-social-white.jpg") no-repeat; }
-    a.icon.white.twitter {
+    .icon.white.twitter {
       background-position: -26px 0; }
-    a.icon.white.facebook {
+    .icon.white.facebook {
       background-position: 0 0; }
-    a.icon.white.instagram {
+    .icon.white.instagram {
       background-position: -63px 0; }
-  a.icon.black {
+  .icon.black {
     background: url("../images/icons-social.png") no-repeat; }
-    a.icon.black.twitter {
+    .icon.black.twitter {
       background-position: 0 0; }
-    a.icon.black.facebook {
+    .icon.black.facebook {
       background-position: -46px 0; }
-    a.icon.black.instagram {
+    .icon.black.instagram {
       background-position: -82px 0; }
-  a.icon.twitter {
+  .icon.twitter {
     width: 20px; }
-  a.icon.facebook {
+  .icon.facebook {
     width: 10px; }
-  a.icon.instagram {
+  .icon.instagram {
     width: 20px; }
 
 nav.primary {
@@ -574,6 +574,32 @@ div.disclaimers {
     div.disclaimers {
       font-size: 15px; } }
 
+button.send-message {
+  background-color: transparent;
+  border: 1px solid #dcc077;
+  color: #dcc077;
+  display: block;
+  font-size: 13px;
+  line-height: 3;
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 0 25px;
+  text-align: center; }
+
+input[type="text"], input[type="tel"], input[type="email"] {
+  border: 1px solid #a5a5a5;
+  height: 44px;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%; }
+
+textarea {
+  border: 1px solid #a5a5a5;
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%; }
+
 .product_details header.hero {
   line-height: 0;
   position: relative; }
@@ -615,7 +641,7 @@ div.disclaimers {
   @media (min-width: 750px) {
     .product_details section.disclaimers {
       display: inline-block;
-      padding: 6.5% 5% 10% 2.5%;
+      padding: 1.5% 10% 2.5%;
       vertical-align: top;
       width: 39%; } }
   .product_details section.disclaimers p {
@@ -985,5 +1011,59 @@ div.disclaimers {
     background: url("../images/recipes-more-arrows-next.jpg") 0 0 no-repeat;
     background-size: contain;
     right: 20%; }
+
+@media (min-width: 1100px) {
+  .about_contact section.top {
+    align-items: stretch;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap; } }
+@media (min-width: 750px) {
+  .about_contact section.bottom {
+    align-items: stretch;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap; } }
+.about_contact aside.form {
+  display: block; }
+.about_contact aside.hero {
+  display: none;
+  line-height: 0;
+  width: 50%; }
+  @media (min-width: 1100px) {
+    .about_contact aside.hero {
+      display: block; } }
+@media (min-width: 1100px) {
+  .about_contact aside.form, .about_contact aside.hero {
+    -webkit-box-flex: 1 0 50%;
+    -moz-box-flex: 1 0 50%;
+    -webkit-flex: 1 0 50%;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 50%; } }
+.about_contact aside.media, .about_contact aside.contact {
+  color: #959595;
+  padding-bottom: 20px;
+  text-align: center; }
+  @media (min-width: 750px) {
+    .about_contact aside.media, .about_contact aside.contact {
+      -webkit-box-flex: 1 0 50%;
+      -moz-box-flex: 1 0 50%;
+      -webkit-flex: 1 0 50%;
+      -ms-flex: 1 0 50%;
+      flex: 1 0 50%; } }
+.about_contact aside.media {
+  background-color: #333333; }
+.about_contact aside.contact {
+  background-color: #000000; }
+.about_contact h5 {
+  color: #dcc077;
+  font-size: 15px;
+  font-weight: 400; }
 
 /*# sourceMappingURL=site.css.map */
