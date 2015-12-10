@@ -1,0 +1,35 @@
+html {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+body {
+  color: $color-darkgrey;
+  font-family: $font-gotham;
+  font-size: 13px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {}
+h2 {}
+h3 {
+  font-size: 15px;
+  text-transform: lowercase;
+}
+h4 {
+  font-size: 13px;
+  text-transform: lowercase;
+}
+h5 {}
+h6 {}

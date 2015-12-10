@@ -1,0 +1,57 @@
+.about_contact {
+  section {
+    &.top {
+      @include desktop {
+        align-items: stretch;
+        @include flexbox();
+        flex-flow: row wrap;
+      }
+    }
+    &.bottom {
+      @include tablet {
+        align-items: stretch;
+        @include flexbox();
+        flex-flow: row wrap;
+      }
+    }
+  }
+  aside {
+    &.form {
+      display: block;      
+    }
+    &.hero {
+      display: none;
+      line-height: 0;
+      width: 50%;
+      @include desktop {
+        display: block;
+      }
+    }
+    &.form,
+    &.hero {
+      @include desktop {        
+        @include flex(1 0 50%);
+      }
+    }
+    &.media,
+    &.contact {
+      color: $color-lightgrey;
+      padding-bottom: 20px;
+      text-align: center;
+      @include tablet {
+        @include flex(1 0 50%);
+      }
+    }
+    &.media {
+      background-color: $color-darkgrey;
+    }
+    &.contact {
+      background-color: $color-black;
+    }
+  }
+  h5 {
+    color: $color-brown;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
