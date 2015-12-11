@@ -8,6 +8,14 @@ input {
     padding: 10px;
     width: 100%;
   }
+  &[type="submit"] {
+    background-color: $color-black;
+    border: 1px solid $color-black;
+    color: $color-lightgrey;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;    
+  }
 }
 textarea {
   border: 1px solid $color-grey;
@@ -15,4 +23,15 @@ textarea {
   margin: 10px 0;
   padding: 10px;
   width: 100%;
+}
+div {
+  &.additional {
+    border-top: 1px solid $color-lightgrey;
+    color: $color-lightgrey;
+    margin: 5px 0;
+    padding: 5px 0;
+    &:last-of-type {
+      border-bottom: 1px solid $color-lightgrey;
+    }
+  }
 }

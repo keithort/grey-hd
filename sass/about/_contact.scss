@@ -17,7 +17,9 @@
   }
   aside {
     &.form {
-      display: block;      
+      display: block;
+      margin: 0 auto;
+      max-width: 80%;
     }
     &.hero {
       display: none;
@@ -36,7 +38,7 @@
     &.media,
     &.contact {
       color: $color-lightgrey;
-      padding-bottom: 20px;
+      padding: 20px;
       text-align: center;
       @include tablet {
         @include flex(1 0 50%);
@@ -49,9 +51,16 @@
       background-color: $color-black;
     }
   }
+  h3 {
+    color: $color-darkgrey;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
   h5 {
     color: $color-brown;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
+    margin: 0;
   }
 }

@@ -592,6 +592,13 @@ input[type="text"], input[type="tel"], input[type="email"] {
   margin: 10px 0;
   padding: 10px;
   width: 100%; }
+input[type="submit"] {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #959595;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%; }
 
 textarea {
   border: 1px solid #a5a5a5;
@@ -599,6 +606,14 @@ textarea {
   margin: 10px 0;
   padding: 10px;
   width: 100%; }
+
+div.additional {
+  border-top: 1px solid #959595;
+  color: #959595;
+  margin: 5px 0;
+  padding: 5px 0; }
+  div.additional:last-of-type {
+    border-bottom: 1px solid #959595; }
 
 .product_details header.hero {
   line-height: 0;
@@ -641,7 +656,7 @@ textarea {
   @media (min-width: 750px) {
     .product_details section.disclaimers {
       display: inline-block;
-      padding: 1.5% 10% 2.5%;
+      padding: 6.5% 2.5% 10% 0;
       vertical-align: top;
       width: 39%; } }
   .product_details section.disclaimers p {
@@ -1031,7 +1046,9 @@ textarea {
     display: flex;
     flex-flow: row wrap; } }
 .about_contact aside.form {
-  display: block; }
+  display: block;
+  margin: 0 auto;
+  max-width: 80%; }
 .about_contact aside.hero {
   display: none;
   line-height: 0;
@@ -1048,7 +1065,7 @@ textarea {
     flex: 1 0 50%; } }
 .about_contact aside.media, .about_contact aside.contact {
   color: #959595;
-  padding-bottom: 20px;
+  padding: 20px;
   text-align: center; }
   @media (min-width: 750px) {
     .about_contact aside.media, .about_contact aside.contact {
@@ -1061,9 +1078,15 @@ textarea {
   background-color: #333333; }
 .about_contact aside.contact {
   background-color: #000000; }
+.about_contact h3 {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase; }
 .about_contact h5 {
   color: #dcc077;
-  font-size: 15px;
-  font-weight: 400; }
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0; }
 
 /*# sourceMappingURL=site.css.map */
