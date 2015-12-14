@@ -1,18 +1,20 @@
+// Custom configuration
+@import "config/variables";
+@import "config/mixins";
+
 // Normalize styles
 @import "components/normalize";
 
-// Bring in shared assets for Sass
-@import "components/variables";
-@import "components/mixins";
-
-// Shared styles across site
+// Shared styles
 @import "components/defaults";
 @import "components/structure";
 @import "components/navigation";
 @import "components/buttons";
 @import "components/forms";
+@import "components/spreadfast";
 
-// Page specific styles
-@import "products/product-details";
-@import "products/recipes";
-@import "about/contact";
+// Page specific
+@import "pages/index";
+@import "pages/products/product-details";
+@import "pages/products/recipes";
+@import "pages/about/contact";

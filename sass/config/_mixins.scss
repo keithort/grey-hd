@@ -25,3 +25,16 @@
   -ms-flex:  $values;
   flex:  $values;
 }
+
+@mixin show-tablet-up($display-property) {
+  display: none;
+  @include tablet {
+    display: #{$display-property};
+  }
+}
+@mixin show-desktop-up($display-property) {
+  display: none;
+  @include desktop {
+    display: #{$display-property};
+  }
+}
