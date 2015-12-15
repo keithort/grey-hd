@@ -1,4 +1,4 @@
-aside {
+section {
   &.also-like {
     clear: both;
     display: none;            
@@ -14,13 +14,13 @@ aside {
       line-height: 45px;
       margin: 0;
       padding: 0 30px;
+      text-transform: initial;
       @include tablet {
         font-size: 18px;
       }
       span {
         color: $color-lightgrey;
         float: right;
-        text-transform: uppercase;
         @include tablet {
           font-size: 14px;
           font-weight: 400;

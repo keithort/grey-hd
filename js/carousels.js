@@ -1,6 +1,15 @@
 (function(){
-
-  // Carousel configurations
+  $('.hero-carousel').slick({
+    arrows: false,
+    fade: true,
+    mobileFirst: true
+  });
+  $('.hero-carousel-controls').slick({
+    asNavFor: '.hero-carousel',
+    fade: true,
+    nextArrow: '<div class="owl-next" style=""></div>',
+    prevArrow: '<div class="owl-prev" style=""></div>'
+  });
 
   $('.news-carousel').owlCarousel({
     dots: false,
@@ -20,7 +29,6 @@
      }
     }
   });
-
   $('.instruction-carousel').owlCarousel({
     items: 1,
     nav: true,
