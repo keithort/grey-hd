@@ -1,10 +1,11 @@
 (function(){
-
   // Product Details
-  var infoHeight = $('.hero').height() > $('.dek').height() ? $('.hero').height() : $('.dek').height() || 0;
-  $('.overlay').append('article.ingredients { height: ' + infoHeight + 'px; }');
-  $('a.nutritional-table, a.close').on('click', function(el){
+  var infoHeight = $('main.product_details .hero').height() > $('main.product_details .dek').height() ? $('.product_details .hero').height() : $('.product_details .dek').height() || 0,
+      infoWidth = $(window).width();
+  $('.overlay').append('article.ingredients { left: -' + infoWidth + 'px; width: ' + infoWidth + 'px; }');
+  $('a.nutritional-table, .product_details article.ingredients a.close').on('click', function(el){
     el.preventDefault();
-    $('header.hero, article.dek, article.ingredients').toggle();
+    $('.overlay').append('article.ingredients { height: ' + infoHeight + 'px; }');
+    $('.product_details article.ingredients').toggleClass('slide');
   });
 }(jQuery))

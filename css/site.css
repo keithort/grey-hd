@@ -893,105 +893,139 @@ section.also-like {
     background-size: contain;
     right: 20%; }
 
-.product_details header.hero {
-  line-height: 0;
+main.product_details {
   position: relative; }
+  main.product_details header.hero {
+    line-height: 0;
+    position: relative; }
+    @media (min-width: 750px) {
+      main.product_details header.hero {
+        display: inline-block;
+        width: 39.3181818%;
+        vertical-align: top; } }
   @media (min-width: 750px) {
-    .product_details header.hero {
-      display: inline-block;
-      width: 39.3181818%;
-      vertical-align: top; } }
-@media (min-width: 750px) {
-  .product_details article.dek {
-    display: inline-block;
-    margin: 7.5% 5%;
-    width: 50%;
-    vertical-align: top; } }
-@media (min-width: 750px) {
-  .product_details article.dek h3 {
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1px; } }
-.product_details article.dek h4 {
-  color: #333333;
-  font-size: 18px;
-  font-weight: 400; }
-.product_details article.dek h5 {
-  color: #333333;
-  font-size: 14px;
-  font-weight: 400; }
-.product_details article.ingredients {
-  display: none;
-  padding-top: 2%;
-  position: relative; }
-  .product_details article.ingredients > h1,
-  .product_details article.ingredients > h5 {
-    margin: .1% 0;
+    main.product_details article.dek h3 {
+      font-size: 30px;
+      font-weight: 400;
+      letter-spacing: 1px; } }
+  main.product_details article.dek h4 {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400; }
+  main.product_details article.dek h5 {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400; }
+  main.product_details article.ingredients {
+    background-color: #ffffff;
+    padding-top: 2%;
+    position: absolute;
+    top: 0;
+    transition: all .25s ease-in; }
+    main.product_details article.ingredients.slide {
+      left: 0; }
+    main.product_details article.ingredients > h1,
+    main.product_details article.ingredients > h5 {
+      margin: .1% 0;
+      text-align: center; }
+  main.product_details section.disclaimers {
+    color: #a5a5a5;
     text-align: center; }
-.product_details section.disclaimers {
-  color: #a5a5a5;
-  text-align: center; }
-  @media (min-width: 750px) {
-    .product_details section.disclaimers {
-      display: inline-block;
-      padding: 6.5% 2.5% 10% 0;
-      vertical-align: top;
-      width: 39%; } }
-  .product_details section.disclaimers p {
-    font-size: 10px; }
-    .product_details section.disclaimers p.options {
+    @media (min-width: 750px) {
+      main.product_details section.disclaimers {
+        display: inline-block;
+        padding: 6.5% 2.5% 10% 0;
+        vertical-align: top;
+        width: 39%; } }
+    main.product_details section.disclaimers p {
+      font-size: 10px; }
+      main.product_details section.disclaimers p.options {
+        font-size: 20px;
+        font-weight: 700; }
+  main.product_details section.nutrition {
+    color: #a5a5a5; }
+    @media (min-width: 750px) {
+      main.product_details section.nutrition {
+        display: inline-block;
+        padding: 5% 2.5% 10% 5%;
+        width: 60%; } }
+    @media (min-width: 750px) {
+      main.product_details section.nutrition header {
+        display: inline-block;
+        padding-right: 1%;
+        text-align: left;
+        vertical-align: top;
+        width: 26%; } }
+    main.product_details section.nutrition h5 {
       font-size: 20px;
-      font-weight: 700; }
-.product_details section.nutrition {
-  color: #a5a5a5; }
+      margin: 0 0 20px 0; }
+    @media (min-width: 750px) {
+      main.product_details section.nutrition .table {
+        border-right: 1px solid #a5a5a5;
+        display: inline-block;
+        padding: 0 10% 5% 0;
+        vertical-align: top;
+        width: 73%; } }
+    main.product_details section.nutrition .row {
+      border-bottom: 1px solid #a5a5a5;
+      line-height: 2; }
+      main.product_details section.nutrition .row:last-child {
+        border-bottom: 0 none; }
+      main.product_details section.nutrition .row div {
+        display: inline-block;
+        text-align: left; }
+    main.product_details section.nutrition .title,
+    main.product_details section.nutrition .amount {
+      width: 44%; }
+    main.product_details section.nutrition .percentage {
+      width: 9%; }
+    main.product_details section.nutrition .vitamin {
+      width: 24%; }
   @media (min-width: 750px) {
-    .product_details section.nutrition {
+    main.product_details section.overview {
       display: inline-block;
-      padding: 5% 2.5% 10% 5%;
-      width: 60%; } }
-  @media (min-width: 750px) {
-    .product_details section.nutrition header {
-      display: inline-block;
-      padding-right: 1%;
-      text-align: left;
-      vertical-align: top;
-      width: 26%; } }
-  .product_details section.nutrition h5 {
+      margin: 7.5% 5%;
+      width: 50%;
+      vertical-align: top; } }
+  main.product_details section .ingredients {
+    border-top: 1px solid #a5a5a5;
     font-size: 20px;
-    margin: 0 0 20px 0; }
+    padding: 10px 15%;
+    width: 89.5%; }
+  main.product_details section .find-flavor {
+    width: 70.5%; }
   @media (min-width: 750px) {
-    .product_details section.nutrition .table {
-      border-right: 1px solid #a5a5a5;
+    main.product_details aside.description {
       display: inline-block;
-      padding: 0 10% 5% 0;
-      vertical-align: top;
-      width: 73%; } }
-  .product_details section.nutrition .row {
-    border-bottom: 1px solid #a5a5a5;
-    line-height: 2; }
-    .product_details section.nutrition .row:last-child {
-      border-bottom: 0 none; }
-    .product_details section.nutrition .row div {
+      max-width: 58%;
+      vertical-align: bottom; } }
+  main.product_details aside.disclaimers {
+    bottom: 10%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%); }
+    main.product_details aside.disclaimers img {
       display: inline-block;
-      text-align: left; }
-  .product_details section.nutrition .title,
-  .product_details section.nutrition .amount {
-    width: 44%; }
-  .product_details section.nutrition .percentage {
-    width: 9%; }
-  .product_details section.nutrition .vitamin {
-    width: 24%; }
-.product_details section .ingredients {
-  border-top: 1px solid #a5a5a5;
-  font-size: 20px;
-  padding: 10px 15%;
-  width: 89.5%; }
-.product_details section .find-flavor {
-  width: 70.5%; }
-.product_details .extras {
+      margin: 0 5px;
+      max-width: 55px; }
+  main.product_details aside.product {
+    line-height: 0;
+    margin: 0 auto; }
+    @media (min-width: 750px) {
+      main.product_details aside.product {
+        display: inline-block;
+        margin-right: 7%;
+        max-width: 34%;
+        vertical-align: bottom; } }
+    @media (min-width: 750px) {
+      main.product_details aside.product img {
+        margin: 0 auto; } }
+
+body.product_details .extras {
   clear: both; }
   @media (min-width: 750px) {
-    .product_details .extras {
+    body.product_details .extras {
       align-items: stretch;
       display: -webkit-box;
       display: -moz-box;
@@ -999,30 +1033,16 @@ section.also-like {
       display: -webkit-flex;
       display: flex;
       flex-flow: row wrap; } }
-.product_details aside.description {
-  display: inline-block;
-  max-width: 58%;
-  vertical-align: bottom; }
-.product_details aside.disclaimers {
-  bottom: 10%;
-  left: 50%;
-  position: absolute;
-  text-align: center;
-  transform: translateX(-50%); }
-  .product_details aside.disclaimers img {
-    display: inline-block;
-    margin: 0 5px;
-    max-width: 55px; }
-.product_details aside.discover {
+body.product_details aside.discover {
   line-height: 0;
   position: relative; }
   @media (min-width: 750px) {
-    .product_details aside.discover.recipes {
+    body.product_details aside.discover.recipes {
       display: none; } }
-  .product_details aside.discover.similar {
+  body.product_details aside.discover.similar {
     display: none; }
     @media (min-width: 750px) {
-      .product_details aside.discover.similar {
+      body.product_details aside.discover.similar {
         display: block;
         -webkit-box-flex: 2 0 61.5%;
         -moz-box-flex: 2 0 61.5%;
@@ -1030,13 +1050,13 @@ section.also-like {
         -ms-flex: 2 0 61.5%;
         flex: 2 0 61.5%; } }
   @media (min-width: 750px) {
-    .product_details aside.discover.more {
+    body.product_details aside.discover.more {
       -webkit-box-flex: 1 0 37%;
       -moz-box-flex: 1 0 37%;
       -webkit-flex: 1 0 37%;
       -ms-flex: 1 0 37%;
       flex: 1 0 37%; } }
-  .product_details aside.discover .copy {
+  body.product_details aside.discover .copy {
     color: #ffffff;
     font-size: 12px;
     font-weight: 400;
@@ -1050,9 +1070,9 @@ section.also-like {
     transform: translateY(-50%);
     width: 100%; }
     @media (min-width: 750px) {
-      .product_details aside.discover .copy {
+      body.product_details aside.discover .copy {
         font-size: 17px; } }
-    .product_details aside.discover .copy p + a {
+    body.product_details aside.discover .copy p + a {
       border: 1px solid #ffffff;
       display: inline-block;
       font-size: 10px;
@@ -1060,29 +1080,17 @@ section.also-like {
       margin: 1% 5%;
       text-transform: uppercase; }
       @media (min-width: 750px) {
-        .product_details aside.discover .copy p + a {
+        body.product_details aside.discover .copy p + a {
           font-size: 12px;
           line-height: 3;
           padding: 0 15%; } }
-  .product_details aside.discover a {
+  body.product_details aside.discover a {
     color: #ffffff;
     display: block;
     font-size: 26px;
     font-weight: 400;
     line-height: 2;
     text-align: center; }
-.product_details aside.product {
-  line-height: 0;
-  margin: 0 auto; }
-  @media (min-width: 750px) {
-    .product_details aside.product {
-      display: inline-block;
-      margin-right: 7%;
-      max-width: 34%;
-      vertical-align: bottom; } }
-  @media (min-width: 750px) {
-    .product_details aside.product img {
-      margin: 0 auto; } }
 
 .recipes {
   margin-top: 20px; }
