@@ -12,9 +12,12 @@ input {
     background-color: $color-black;
     border: 1px solid $color-black;
     color: $color-lightgrey;
-    margin: 10px 0;
+    float: right;
+    margin: 10% 0 20%;
     padding: 10px;
-    width: 100%;    
+  }
+  .full & {
+    width: 100%;
   }
 }
 textarea {
@@ -34,4 +37,20 @@ div {
       border-bottom: 1px solid $color-lightgrey;
     }
   }
+}
+
+*::-webkit-input-placeholder {
+  color: $color-grey;
+}
+
+*:-moz-placeholder {
+  color: $color-grey;
+}
+
+*::-moz-placeholder {
+  color: $color-grey;
+}
+
+*:-ms-input-placeholder {
+  color: $color-grey;
 }

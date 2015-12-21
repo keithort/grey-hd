@@ -1,5 +1,22 @@
 .about_contact {
   section {
+    &.banner {
+      border-bottom: 1px solid $color-darkgrey;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 2.5;
+      padding: 0 10%;
+      @include tablet {
+        font-size: 20px;
+        text-align: center;
+      }
+      span {
+        display: none;
+        @include tablet {
+          display: inline-block;
+        }
+      }
+    }
     &.top {
       @include desktop {
         align-items: stretch;
@@ -19,7 +36,7 @@
     &.form {
       display: block;
       margin: 0 auto;
-      max-width: 80%;
+      padding: 2% 10%;
     }
     &.hero {
       display: none;
@@ -62,5 +79,67 @@
     font-size: 14px;
     font-weight: 400;
     margin: 0;
+  }
+  .split-half {
+    @include tablet {
+      @include flexbox();
+      flex-direction: row;
+      justify-content: space-between;
+      input {
+        @include flex(1 1 47.5%);
+        &:first-of-type {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .split-uneven {
+    input {
+      margin-right: 2%;
+      width: 56%;
+      &:first-child {
+        width: 100%;
+      }
+      &:last-child {
+        margin-right: 0;
+        width: 40%;
+      }
+    }
+    @include tablet {
+      @include flexbox();
+      flex-direction: row;
+      justify-content: space-between;
+      input {
+        @include flex(1 1 37%);
+        margin-right: 10px;
+        &:last-of-type {
+          @include flex(1 1 20%);
+        }
+      }
+    }
+  }
+  .expand {
+    color: $color-grey;
+  }
+  .more {
+    display: none;
+  }
+  .join-us {
+    clear: both;
+    text-align: center;
+    span {
+      display: none;
+      @include tablet {
+        display: block;
+      }
+    }
+    ul {
+      list-style: none;
+      margin: 5% 0;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+    }
   }
 }
