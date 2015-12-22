@@ -1,0 +1,16 @@
+<section class="more-recipes">
+  <header>
+    MORE RECIPES
+  </header>
+  <div class="thumb-wrapper recipes-carousel">
+    <div><img src="images/recipes-more-1.jpg" alt=""></div>
+    <div><img src="images/recipes-more-2.jpg" alt=""></div>
+    <div><img src="images/recipes-more-3.jpg" alt=""></div>
+    <div><img src="images/recipes-more-1.jpg" alt=""></div>
+    <div><img src="images/recipes-more-2.jpg" alt=""></div>
+    <div><img src="images/recipes-more-3.jpg" alt=""></div>
+    <div><img src="images/recipes-more-1.jpg" alt=""></div>
+    <div><img src="images/recipes-more-2.jpg" alt=""></div>
+    <div><img src="images/recipes-more-3.jpg" alt=""></div>
+  </div>
+</section>

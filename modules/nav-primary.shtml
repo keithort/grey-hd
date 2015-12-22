@@ -1,0 +1,9 @@
+  <nav role="navigation" class="primary">
+    <a href="#" class="menu"></a>
+    <ul>
+      <li><a href="product_details.shtml">Products</a> </li>
+      <li><a href="#">Shops</a></li>
+      <li><a href="about-contact">About Us</a></li>
+      <li><a href="#">Locator</a></li>
+    </ul>
+  </nav>

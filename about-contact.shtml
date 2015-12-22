@@ -15,32 +15,9 @@
 <body>
 
 <section class="header">
-  <div class="logo"><a href="#"></a></div>
-  <div class="search-block">
-    <div class="search">
-      <a href="#" class="icon-globe"></a>
-      <a href="#" class="icon-search"></a>
-      <div class="search-box">
-        <input type="text">
-      </div>
-    </div>
-  </div>
-  <nav role="navigation" class="primary">
-    <a href="#" class="menu"></a>
-    <ul>
-      <li><a href="#">Products</a> </li>
-      <li><a href="#">Shops</a></li>
-      <li><a href="#" class="active">About Us</a></li>
-      <li><a href="#">Locator</a></li>
-    </ul>
-  </nav>
-  <nav role="secondary" class="secondary">
-    <ul>
-      <li><a href="">HISTORY</a></li>
-      <li><a href="">NEWS</a></li>
-      <li><a href="about-contact.html" class="active">CONTACT US</a></li>
-    </ul>
-  </nav>
+  <!--#include file="modules/nav-logo.shtml"-->
+  <!--#include file="modules/nav-primary.shtml"-->
+  <!--#include file="modules/nav-secondary-about.shtml"-->
 </section>	
 
 <main class="about_contact">
@@ -125,27 +102,7 @@
   </section>
 </main>
 
-<footer role="footer" class="main-footer">
-  <section class="social">
-    Find us: 
-    <ul>
-      <li><a href="https://twitter.com/HaagenDazs_US" class="icon black twitter"></a></li>
-      <li><a href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FHaagenDazsUS" class="icon black facebook"></a></li>
-      <li><a href="https://www.instagram.com/haagendazs_us/?hl=en" class="icon black instagram"></a></li>
-    </ul>
-  </section>
-  <section class="links">
-    <span>@HDIP, Inc</span> |
-    <a href="">CONTACT US</a> |
-    <a href="">FRANCHISE</a> |
-    <a href="">PRIVACY</a> |
-    <a href="">terms of use</a> |
-    <a href="">ad options</a>
-  </section>
-  <section class="copyright">
-    Lorem ipsum dolor sit amet
-  </section>
-</footer>
+  <!--#include file="modules/footer.shtml"-->
 
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/picturefill.min.js"></script>

@@ -1,0 +1,21 @@
+<footer role="footer" class="main-footer">
+  <section class="social">
+    Find us: 
+    <ul>
+      <li><a href="https://twitter.com/HaagenDazs_US" class="icon black twitter" target="_blank"></a></li>
+      <li><a href="https://www.facebook.com/HaagenDazsUS" class="icon black facebook" target="_blank"></a></li>
+      <li><a href="https://www.instagram.com/haagendazs_us/?hl=en" class="icon black instagram" target="_blank"></a></li>
+    </ul>
+  </section>
+  <section class="links">
+    <span>@HDIP, Inc</span> |
+    <a href="about-contact.html">CONTACT US</a> |
+    <a href="">FRANCHISE</a> |
+    <a href="">PRIVACY</a> |
+    <a href="">terms of use</a> |
+    <a href="">ad options</a>
+  </section>
+  <section class="copyright">
+    Lorem ipsum dolor sit amet
+  </section>
+</footer>

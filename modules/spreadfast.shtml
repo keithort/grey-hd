@@ -1,0 +1,24 @@
+<section class="also-like">
+  <h3>#MyHaagenDazs 
+    <span>JOIN US
+      <ul>
+        <li><a href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FHaagenDazsUS" class="fb-like icon white facebook"></a>
+        </li>        
+        <li><a href="https://twitter.com/HaagenDazs_US" class="icon white twitter"></a></li>
+        <li><a href="https://www.instagram.com/haagendazs_us/?hl=en" class="icon white instagram"></a></li>
+      </ul>
+    </span>
+  </h3>
+  <div>
+    <div><img src="images/ProductDetailPage_03.jpg" alt=""></div>
+    <div><img src="images/ProductDetailPage_04.jpg" alt=""></div>
+    <div><img src="images/ProductDetailPage_05-04.jpg" alt=""></div>
+    <div><img src="images/ProductDetailPage_05.jpg" alt=""></div>
+    <div><img src="images/ProductDetailPage_06.jpg" alt=""></div>
+    <div><img src="images/ProductDetailPage_10.jpg" alt=""></div>
+    <div><img src="images/ProductDetailPage_11.jpg" alt=""></div>
+    <div><img src="images/ProductDetailPage_13-09.jpg" alt=""></div>
+    <div><img src="images/ProductDetailPage_13.jpg" alt=""></div>
+    <div class="see-more"><a href="#">SEE MORE</a></div>
+  </div>
+</section>
