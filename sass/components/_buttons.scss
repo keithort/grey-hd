@@ -60,6 +60,50 @@ div {
       font-size: 15px;
     }
   }
+  &.share-bar {
+    bottom: 5%;
+    position: absolute;
+    width: 100%;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    li {
+      display: inline-block;
+      margin: 0 -3.5px 0 0;
+      padding: 0;
+    }
+    a {
+      background: url('../images/sprite-social-share-bar.png') no-repeat;
+      display: inline-block;
+      height: 21px;
+      &:not(.pin-it) {
+        background-color: rgba(0, 0, 0, .5);
+        background-size: 800%;
+        width: 22px;
+      }
+      &.reblog {
+        background-position: 3px 2px;
+      }
+      &.like {
+        background-position: -37px 3px;
+      }
+      &.tweet {
+        background-position: -78px 2px; 
+      }
+      &.facebook {
+        background-position: -111px 2px; 
+      }
+      &.pin-it {
+        background-position: -180px 2px;
+        background-size: 700%;
+        margin-left: 2px;
+        width: 30px;
+      }
+    }
+  }
 }
 
 button {

@@ -1,10 +1,10 @@
 (function(){
-  $('.hero-carousel').slick({
+  $('.homepage .hero-carousel').slick({
     arrows: false,
     fade: true,
     mobileFirst: true
   });
-  $('.hero-carousel-controls').slick({
+  $('.homepage .hero-carousel-controls').slick({
     asNavFor: '.hero-carousel',
     fade: true,
     nextArrow: '<div class="owl-next" style=""></div>',

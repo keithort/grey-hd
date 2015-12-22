@@ -575,6 +575,40 @@ div.disclaimers {
   @media (min-width: 750px) {
     div.disclaimers {
       font-size: 15px; } }
+div.share-bar {
+  bottom: 5%;
+  position: absolute;
+  width: 100%; }
+  div.share-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  div.share-bar li {
+    display: inline-block;
+    margin: 0 -3.5px 0 0;
+    padding: 0; }
+  div.share-bar a {
+    background: url("../images/sprite-social-share-bar.png") no-repeat;
+    display: inline-block;
+    height: 21px; }
+    div.share-bar a:not(.pin-it) {
+      background-color: rgba(0, 0, 0, 0.5);
+      background-size: 800%;
+      width: 22px; }
+    div.share-bar a.reblog {
+      background-position: 3px 2px; }
+    div.share-bar a.like {
+      background-position: -37px 3px; }
+    div.share-bar a.tweet {
+      background-position: -78px 2px; }
+    div.share-bar a.facebook {
+      background-position: -111px 2px; }
+    div.share-bar a.pin-it {
+      background-position: -180px 2px;
+      background-size: 700%;
+      margin-left: 2px;
+      width: 30px; }
 
 button.send-message {
   background-color: transparent;
@@ -699,7 +733,8 @@ section.also-like {
 .index .top .ugc-right {
   display: none; }
 .index .top .hero {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   .index .top .hero .story {
     line-height: 0;
     position: relative; }
@@ -715,7 +750,7 @@ section.also-like {
     width: 100%; }
     @media (min-width: 750px) {
       .index .top .hero .copy {
-        font-size: 17px; } }
+        font-size: 16px; } }
     .index .top .hero .copy a {
       background-color: rgba(0, 0, 0, 0.2);
       color: #ffffff;
@@ -766,7 +801,8 @@ section.also-like {
 .index .top .lower,
 .index .top .left,
 .index .top .right {
-  line-height: 0; }
+  line-height: 0;
+  position: relative; }
 .index header.news {
   display: none;
   font-size: 14px;
@@ -822,7 +858,7 @@ section.also-like {
   @media (min-width: 750px) {
     .index .discover .copy,
     .index .news-carousel .copy {
-      font-size: 17px; } }
+      font-size: 16px; } }
   .index .discover .copy p + a,
   .index .news-carousel .copy p + a {
     background-color: rgba(0, 0, 0, 0.1);
@@ -998,7 +1034,7 @@ main.product_details {
   @media (min-width: 750px) {
     main.product_details section.overview {
       display: inline-block;
-      margin: 7.5% 5%;
+      margin: 5.5% 5%;
       width: 50%;
       vertical-align: top; } }
   main.product_details section .ingredients {
@@ -1268,7 +1304,7 @@ body.product_details aside.discover {
   border-bottom: 1px solid #333333;
   font-size: 16px;
   font-weight: 400;
-  line-height: 2.5;
+  line-height: 4;
   padding: 0 10%; }
   @media (min-width: 750px) {
     .about_contact section.banner {
