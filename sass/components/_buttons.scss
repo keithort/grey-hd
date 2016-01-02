@@ -44,6 +44,18 @@ a {
     text-decoration: none;
     top: 5%;
   }
+  &.brown-link {
+    background-color: transparent;
+    border: 1px solid $color-brown;
+    color: $color-brown;
+    display: block;
+    font-size: 13px;
+    line-height: 3;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 0 25px;
+    text-align: center;
+  }
 }
 
 div {
@@ -110,15 +122,6 @@ div {
 
 button {
   &.send-message {
-    background-color: transparent;
-    border: 1px solid $color-brown;
-    color: $color-brown;
-    display: block;
-    font-size: 13px;
-    line-height: 3;
-    margin: 0 auto;
-    max-width: 200px;
-    padding: 0 25px;
-    text-align: center;
+    @extend a.brown-link;
   }
 }

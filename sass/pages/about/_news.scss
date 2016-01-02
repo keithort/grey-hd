@@ -1,0 +1,49 @@
+.about_news {
+  article {
+    align-items: stretch;
+    @include flexbox();
+    flex-flow: row wrap;
+    > div {
+      &.hero {
+        line-height: 0;
+        position: relative;
+      }
+      &.dek {
+        background-color: $color-black;
+        color: $color-white;
+        padding: 5% 10%;
+        text-align: center;
+        span {
+          @include show-tablet-up(inline);
+        }
+      }
+      h3 {
+        color: $color-brown;
+      }
+      @include flex(1 0 100%);
+      @include tablet {
+        @include flex(1 0 50%);
+      }     
+    }    
+    &:nth-child(even) {
+      > div {
+        &.hero {
+          @media (max-width: #{$tablet-width}) {
+            order: 1;
+          }
+        }
+        &.dek {
+          @media (max-width: #{$tablet-width}) {
+            order: 2;
+          }
+        }
+      } 
+    } 
+  }
+  section {
+    &.story,
+    &.image {
+
+    }
+  }
+ }

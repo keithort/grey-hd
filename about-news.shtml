@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Häagen-Dazs® - News</title>
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6125072/713328/css/fonts.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:url"           content="https://www.facebook.com/HaagenDazsUS" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Häagen-Dazs®" />
+  <meta property="og:description"   content="For Placement Only" />
+</head>
+<body>
+
+<section class="header">
+  <!--#include file="modules/nav-logo.shtml"-->
+  <!--#include file="modules/nav-primary.shtml"-->
+  <!--#include file="modules/nav-secondary-about.shtml"-->
+</section>	
+
+<main class="about_news about_contact">
+  <article>
+    <div class="hero">
+      <img src="images/news-hero-bee.jpg" />
+      <!--#include file="modules/sharebar.shtml"-->
+    </div>
+    <div class="dek">
+      <h3>Lorem Ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <span>Lorem ipsum dolor sit</span></p>
+      <a href="" class="brown-link">LEARN MORE</a>
+    </div>
+  </article> 
+  <article>
+    <div class="dek">
+      <h3>Lorem Ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <span>Lorem ipsum dolor sit</span></p>
+      <a href="" class="brown-link">LEARN MORE</a>
+    </div>
+    <div class="hero">
+      <img src="images/news-hero-ingredients.jpg" />
+      <!--#include file="modules/sharebar.shtml"-->
+    </div>
+  </article>
+  <article>
+    <div class="hero">
+      <img src="images/news-hero-cone.jpg" />
+      <!--#include file="modules/sharebar.shtml"-->
+    </div>
+    <div class="dek">
+      <h3>Lorem Ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <span>Lorem ipsum dolor sit</span></p>
+      <a href="" class="brown-link">LEARN MORE</a>
+    </div>
+  </article> 
+</main>
+
+<!--#include file="modules/footer.shtml"-->
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/picturefill.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
+</body>
+</html>
