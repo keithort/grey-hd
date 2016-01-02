@@ -77,8 +77,10 @@ div {
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
-    width: 120px;
+    width: 125px;
     ul {
+      background-color: rgba(0, 0, 0, .5);
+      display: inline-block;
       list-style: none;
       margin: 0;
       padding: 0;
@@ -91,29 +93,24 @@ div {
     }
     a {
       background: url('../images/sprite-social-share-bar.png') no-repeat;
+      background-size: 700%;
       display: inline-block;
-      height: 21px;
-      &:not(.pin-it) {
-        background-color: rgba(0, 0, 0, .5);
-        background-size: 800%;
-        width: 22px;
-      }
+      height: 20px;
+      width: 22px;
       &.reblog {
-        background-position: 3px 2px;
+        background-position: 3px 3px;
       }
       &.like {
-        background-position: -37px 3px;
+        background-position: -31px 3px;
       }
       &.tweet {
-        background-position: -78px 2px; 
+        background-position: -68px 3px; 
       }
       &.facebook {
-        background-position: -111px 2px; 
+        background-position: -97px 3px; 
       }
       &.pin-it {
-        background-position: -180px 2px;
-        background-size: 700%;
-        margin-left: 2px;
+        background-position: -180px 1px;
         width: 30px;
       }
     }

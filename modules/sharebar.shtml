@@ -4,6 +4,6 @@
     <li><a href="" class="like"></a></li>
     <li><a href="" class="tweet"></a></li>
     <li><a href="" class="facebook"></a></li>
-    <li><a href="" class="pin-it"></a></li>
   </ul>
+  <a href="" class="pin-it"></a>
 </div>
