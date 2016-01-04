@@ -1,0 +1,89 @@
+<section class="more-news">
+  <header>
+    MORE NEWS
+  </header>
+  <div class="thumb-wrapper more-news-carousel">
+    <div>
+      <img src="images/recipes-more-1.jpg" alt="">
+      <div class="copy">
+        <p>Lorem ipsum dolor<br />
+          sit amet, consectetuer<br />
+          adipiscing</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+    <div>
+      <img src="images/recipes-more-2.jpg" alt="">
+      <div class="copy">
+        <p>Lorem ipsum dolor<br />
+          sit amet, consectetuer<br />
+          adipiscing</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+    <div>
+      <img src="images/recipes-more-3.jpg" alt="">
+      <div class="copy">
+        <p>Lorem ipsum dolor<br />
+          sit amet, consectetuer<br />
+          adipiscing</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+    <div>
+      <img src="images/recipes-more-1.jpg" alt="">
+      <div class="copy">
+        <p>Lorem ipsum dolor<br />
+          sit amet, consectetuer<br />
+          adipiscing</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+    <div>
+      <img src="images/recipes-more-2.jpg" alt="">
+      <div class="copy">
+        <p>Lorem ipsum dolor<br />
+          sit amet, consectetuer<br />
+          adipiscing</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+    <div>
+      <img src="images/recipes-more-3.jpg" alt="">
+      <div class="copy">
+        <p>Lorem ipsum dolor<br />
+          sit amet, consectetuer<br />
+          adipiscing</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+    <div>
+      <img src="images/recipes-more-1.jpg" alt="">
+      <div class="copy">
+        <p>Lorem ipsum dolor<br />
+          sit amet, consectetuer<br />
+          adipiscing</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+    <div>
+      <img src="images/recipes-more-2.jpg" alt="">
+      <div class="copy">
+        <p>Lorem ipsum dolor<br />
+          sit amet, consectetuer<br />
+          adipiscing</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+    <div>
+      <img src="images/recipes-more-3.jpg" alt="">
+      <div class="copy">
+        <p>Lorem ipsum dolor<br />
+          sit amet, consectetuer<br />
+          adipiscing</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+  </div>
+</section>
+   

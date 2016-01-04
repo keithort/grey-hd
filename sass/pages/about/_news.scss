@@ -40,10 +40,125 @@
       } 
     } 
   }
+}
+.about_news_detail {
   section {
-    &.story,
-    &.image {
-
+    &.article {
+      header {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      article {
+        margin: 0 auto;
+        max-width: 650px;
+      }
+      aside {
+        &.photo {
+          margin: 40px 0;
+          .caption {
+            @include show-tablet-up(block);
+            font-size: 10px;
+            margin: 5px 0;
+            max-width: 85%;
+          }
+        }
+      }
+      h2 {
+        font-size: 16px;
+        margin: 20px 0 5px 0;
+        text-transform: uppercase;
+      }
+      h3 {
+        font-size: 22px;
+        font-weight: 400;
+        margin: 5px 0;
+        text-transform: lowercase;
+      }
+      h4 {
+        font-size: 12px;
+        margin: 5px 0 20px 0;
+        text-transform: uppercase;
+      }
+      h6 {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        a {
+          color: $color-black;
+        }
+      }
+    }
+    &.more-news {
+      header {
+        border-top: 1px solid $color-lightgrey;
+        color: $color-lightgrey;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 5;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        @include tablet {
+          font-size: 16px;
+        }
+      }
+      .owl-prev,
+      .owl-next {
+        display: none;
+        height: 19px;
+        position: absolute;
+        top: -50px;
+        width: 10px;
+        @include tablet {
+          display: inline-block;
+        }
+      }
+      .owl-prev {
+        background: url('../images/recipes-more-arrows-prev.jpg') 0 0 no-repeat;
+        background-size: contain;
+        left: 20%;
+      }
+      .owl-next {
+        background: url('../images/recipes-more-arrows-next.jpg') 0 0 no-repeat;
+        background-size: contain;
+        right: 20%;
+      }
+      .owl-item {
+        line-height: 0;
+        position: relative;        
+      }
+      .copy {
+        color: $color-white;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 1.25;
+        padding: 0 25%;
+        position: absolute;
+        text-align: center;
+        text-transform: lowercase;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        @include tablet {
+          font-size: 17px;
+        }
+        p + a {
+          border: 1px solid $color-white;
+          color: $color-white;
+          display: inline-block;
+          font-size: 10px;
+          line-height: 4;
+          margin: 1% 5%;
+          text-transform: uppercase;
+          @include tablet {            
+            font-size: 12px;
+            line-height: 3;
+            padding: 0 15%;
+          }
+        }
+      }
     }
   }
- }
+}

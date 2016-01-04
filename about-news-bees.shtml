@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Häagen-Dazs® - News - Honey, Please Don't Go</title>
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link type="text/css" rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6125072/713328/css/fonts.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:url"           content="https://www.facebook.com/HaagenDazsUS" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Häagen-Dazs®" />
+  <meta property="og:description"   content="For Placement Only" />
+</head>
+<body>
+
+<section class="header">
+  <!--#include file="modules/nav-logo.shtml"-->
+  <!--#include file="modules/nav-primary.shtml"-->
+  <!--#include file="modules/nav-secondary-about.shtml"-->
+</section>	
+
+<main class="about_news_detail">
+  <section class="article">
+    <header>
+      <h2>NEWS</h2>
+      <h3>honey, please don't go</h3>
+      <h4>JUNE 3, 2015</h4>
+      <img src="images/about-news-bees-hero.jpg">
+    </header>
+    <article>
+      <h3>imagine a world without honey bees</h3>
+      <p>imagine that world without tasty pears, luscious raspberries, or juicy strawberries.</p>
+      <p>honey bees pollinate one-third of the foods we eat, including many of the ingredients we use to make our pure and simple ice creams, sorbets, frozen yogurts, and bars. unfortunately, honey bee populations are disappearing at an alarming rate.</p>
+      <p>we want to keep these little heroes buzzing. we hope you'll join our mission.</p>
+      <h3>the honey bee crisis</h3>
+      <p>honey bees work hard to pollinate hundreds of crops, including fruits, vegetables, nuts, and seeds.</p>
+      <p>yet over the last five years, we've lost over one-third of our honey bee colonies nationwide, due to factors such as Colony Collapse Disorder (CCD), an alarming phenomenon that occurs when honey bees mysteriously desert their hive and die.</p>
+      <p>researchers do not know exactly what causes CCD, but they believe there may be many contributing factors, including viruses, mites, chemical exposure, and poor nutrition.</p>
+
+      <aside class="photo">
+        <img src="images/about-news-bees-secondary.jpg" alt="">
+        <div class="caption">This is the Sausalito team that submitted the winning design. From left are Chika Kurotaki, Ann Baker, Jessica Brainard and Donald Sibbett. Click to enlarge. (Photo courtesy of Sausalito Bee Team)</div>
+      </aside>
+      <h3>get involved</h3>
+      <p>since 2008, Häagen-Dazs® ice cream has partnered with leading research facilities to donate more than $1,000,000 to honey bee research.</p>
+      <p>our contributions recognize the role honey bees play in our food production. funds are used to help support the Harry H. Laidlaw Jr. Honey Bee Research Facility at the University of California, Davis, which is the largest and most comprehensive state-supported apiculture facility in North America. the Häagen-Dazs ice cream contributions also support the maintenance of the Häagen-Dazs Honey Bee Haven–a bee-friendly demonstration garden on the UC Davis campus–as well as the development of educational materials.</p>
+      <p>we'd love for you to get involved too! when you buy a carton of our ice cream, you help Häagen-Dazs ice cream fund research to save the bees. you can also donate directly to UC Davis to help support their ongoing efforts.</p>
+      <p>giving back has never been so delicious!</p>
+      <h6>learn more about Häagen-Dazs Honey Bee Haven.</h6>
+    </article>
+  </section>
+  <!--#include file="modules/news.shtml"-->  
+</main>
+
+<!--#include file="modules/footer.shtml"-->
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/picturefill.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<script type="text/javascript" src="js/carousels.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
+</body>
+</html>

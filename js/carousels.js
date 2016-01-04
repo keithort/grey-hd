@@ -35,7 +35,7 @@
     navText: [,],
     slideBy: 1
   });
-  $('.recipes-carousel').owlCarousel({
+  $('.recipes-carousel, .more-news-carousel').owlCarousel({
     dots: false,
     lazyLoad: true,
     loop: true,

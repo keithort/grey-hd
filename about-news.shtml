@@ -20,7 +20,7 @@
   <!--#include file="modules/nav-secondary-about.shtml"-->
 </section>	
 
-<main class="about_news about_contact">
+<main class="about_news">
   <article>
     <div class="hero">
       <img src="images/news-hero-bee.jpg" />
