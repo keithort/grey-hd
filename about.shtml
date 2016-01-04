@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Häagen-Dazs® - About Us</title>
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6125072/713328/css/fonts.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:url"           content="https://www.facebook.com/HaagenDazsUS" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Häagen-Dazs®" />
+  <meta property="og:description"   content="For Placement Only" />
+</head>
+<body>
+
+<section class="header">
+  <!--#include file="modules/nav-logo.shtml"-->
+  <!--#include file="modules/nav-primary.shtml"-->
+  <!--#include file="modules/nav-secondary-about.shtml"-->
+</section>	
+
+<main class="about">
+  <section class="split">
+    <div class="story">
+      <header>Our Story</header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur!</p>
+    </div>
+    <div class="hero">
+      <img src="images/about-landing-hero-1.jpg" alt="">
+      <!--#include file="modules/sharebar.shtml"-->
+    </div>
+  </section>
+  <section class="timeline">
+    TBD
+  </section>
+  <section class="split">
+    <div class="story">
+      <header><div class="circle">1961</div></header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur!</p>
+    </div>
+    <div class="hero">
+      <img src="images/about-landing-hero-2.jpg" alt="">
+      <!--#include file="modules/sharebar.shtml"-->
+    </div>
+  </section>
+  <section class="split">
+    <div class="story invert">
+      <header><div class="circle">1965</div></header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur!</p>
+    </div>
+    <div class="hero invert">
+      <img src="images/about-landing-hero-3.jpg" alt="">
+      <!--#include file="modules/sharebar.shtml"-->
+    </div>
+  </section>
+  <section class="split">
+    <div class="story">
+      <header><div class="circle">1978</div></header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur!</p>
+    </div>
+    <div class="hero">
+      <img src="images/about-landing-hero-4.jpg" alt="">
+      <!--#include file="modules/sharebar.shtml"-->
+    </div>
+  </section>
+  <section class="split">
+    <div class="story invert">
+      <header><div class="circle">1978</div></header>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae fugiat consectetur!</p>
+    </div>
+    <div class="hero invert">
+      <img src="images/about-landing-hero-5.jpg" alt="">
+      <!--#include file="modules/sharebar.shtml"-->
+    </div>
+  </section>
+</main>
+
+  <!--#include file="modules/footer.shtml"-->
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/picturefill.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
+</body>
+</html>

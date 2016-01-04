@@ -1,0 +1,62 @@
+.about {
+  section {
+    &.split {
+      @include tablet {
+        @include flexbox();
+      }
+    }
+    &.timeline {
+      @include show-tablet-up(block);
+    }
+  }
+  div {
+    &.story {
+      background-color: $color-black;
+      color: $color-white;
+      font-size: 17px;
+      font-weight: 400;
+      padding: 5% 10%;
+      text-align: center;
+      @include tablet {
+        @include flex(1 0 58%);
+      }
+      &.invert {
+        background-color: $color-white;
+        color: $color-black;
+        @include tablet {
+          order: 2;
+        }
+        header {          
+          color: $color-black;
+        }
+        .circle {
+          border-color: $color-black;
+        }
+      }
+      header {
+        color: $color-brown;
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+    }
+    &.hero {
+      line-height: 0;
+      position: relative;
+      @include tablet {
+        @include flex(1 0 42%);
+      }
+      &.invert {
+        @include tablet {
+          order: 1;
+        }
+      }
+    }
+    &.circle {
+      border: 2px solid $color-brown;
+      border-radius: 50%;
+      display: inline-block;
+      line-height: 3;
+      padding: 0 10px;
+    }
+  }
+}
