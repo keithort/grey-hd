@@ -942,6 +942,90 @@ section.also-like {
     background-size: contain;
     right: 20%; }
 
+.all_products nav.products header {
+  border: 1px solid #dcc077;
+  display: none; }
+  @media (min-width: 750px) {
+    .all_products nav.products header {
+      display: inline-block; } }
+.all_products nav.products ul {
+  display: none; }
+.all_products nav.filter header {
+  display: inline-block; }
+  @media (min-width: 750px) {
+    .all_products nav.filter header {
+      display: none; } }
+.all_products nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.all_products nav li {
+  margin: 0;
+  padding: 0; }
+@media (min-width: 750px) {
+  .all_products section.module {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap; } }
+@media (min-width: 750px) {
+  .all_products article.product {
+    -webkit-box-flex: 0 0 25%;
+    -moz-box-flex: 0 0 25%;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%; } }
+.all_products article.story {
+  position: relative;
+  text-align: center; }
+  @media (min-width: 750px) {
+    .all_products article.story {
+      -webkit-box-flex: 0 0 50%;
+      -moz-box-flex: 0 0 50%;
+      -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%; } }
+  .all_products article.story .copy {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    padding: 0 15%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%; }
+    @media (min-width: 750px) {
+      .all_products article.story .copy {
+        font-size: 17px; } }
+    .all_products article.story .copy h2 {
+      font-size: 26px;
+      font-weight: 400; }
+    .all_products article.story .copy p + a {
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 10px;
+      line-height: 4;
+      margin: 1% 5%;
+      text-transform: uppercase; }
+      @media (min-width: 750px) {
+        .all_products article.story .copy p + a {
+          font-size: 12px;
+          line-height: 3;
+          padding: 0 15%; } }
+.all_products div.hero {
+  line-height: 0;
+  margin: 0;
+  padding: 0; }
+.all_products div.product-name {
+  font-size: 16px;
+  line-height: 2.5;
+  text-align: center; }
+
 main.product_details {
   position: relative; }
   main.product_details header.hero {
