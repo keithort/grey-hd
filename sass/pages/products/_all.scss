@@ -1,8 +1,11 @@
 .all_products {
   nav {
     &.products {
+      @include flex(1 0 33%);
       header {
-        border: 1px solid $color-brown;
+        border: 1px solid $color-darkgrey;
+        color: $color-darkgrey;
+        font-size: 14px;
         @include show-tablet-up(inline-block);
       }
       ul {
@@ -28,6 +31,9 @@
     }
   }
   section {
+    &.filters {
+      @include flexbox();
+    }
     &.module {
       @include tablet {
         @include flexbox();
@@ -40,8 +46,12 @@
       @include tablet {
         @include flex(0 0 25%);
       }
+      a {
+        color: $color-black;
+      }
     }
     &.story {
+      line-height: 0;
       position: relative; 
       text-align: center;
       @include tablet {
@@ -92,6 +102,11 @@
       font-size: 16px;
       line-height: 2.5;
       text-align: center;
+    }
+  }
+  button {
+    @include tablet {
+      display: none;
     }
   }
 }

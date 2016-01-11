@@ -24,10 +24,9 @@
 </section>
 
 <main class="all_products">
+  <header>all products</header>
   <section class="filters">
-    <nav class="products filter">
-      <header><a href="">FILTER</a></header>
-    </nav>
+    <button>FILTERS</button>
     <nav class="products collection">
       <header>COLLECTION</header>
       <ul>
@@ -137,31 +136,43 @@
   </section>
   <section class="module">
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-1.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-2.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-3.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-4.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-5.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-6.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="story">
-      <img src="http://lorempixel.com/g/800/460" alt="">
+      <img src="images/all-products-story.jpg" alt="">
       <div class="copy">
         <h2>kitchen friendly ingredients</h2>
         <p>find out better ways to get your kitchen involved in your Häagen-Dazs' experience.</p>
@@ -169,28 +180,34 @@
       </div>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-7.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-8.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-9.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-1.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
     <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
-    </article>
-    <article class="product">
-      <div class="hero"><img src="http://lorempixel.com/g/400/400" alt=""></div>
-      <div class="product-name">ice cream</div>
+      <a href="">
+        <div class="hero"><img src="images/all-products-hero-2.jpg" alt=""></div>
+        <div class="product-name">ice cream</div>
+      </a>
     </article>
   </section>
 </main>
