@@ -27,112 +27,122 @@
   <header>all products</header>
   <section class="filters">
     <button>FILTERS</button>
-    <nav class="products collection">
-      <header>COLLECTION</header>
-      <ul>
-        <li><a href="">Classic</a></li>
-        <li><a href="">Five Ingredients</a></li>
-        <li><a href="">Exotic</a></li>
-        <li><a href="">Vanilla</a></li>
-        <li><a href="">Chocolate</a></li>
-        <li><a href="">Caramel</a></li>
-        <li><a href="">Fruit</a></li>
-        <li><a href="">Nutty</a></li>
-        <li><a href="">Coffee</a></li>
-        <li><a href="">Surprise Me</a></li>
-      </ul>
-    </nav>
-    <nav class="products product">
-      <header>PRODUCTS</header>
-      <ul>
-        <li><a href="">Ice Cream</a></li>
-        <li><a href="">Bars</a></li>
-        <li><a href="">Gelato</a></li>
-        <li><a href="">Sorbet</a></li>
-        <li><a href="">Frozen Yogurt</a></li>
-      </ul>
-    </nav>
-    <nav class="products flavor">
-      <header>FLAVOR</header>
-      <ul>
-        <li><a href="">Butter Pecan</a></li>
-        <li><a href="">Caramel Cone</a></li>
-        <li><a href="">Cherry Vanilla</a></li>
-        <li><a href="">Chocolate</a></li>
-        <li><a href="">Chocolate Chip Cookie Dough</a></li>
-        <li><a href="">Chocolate Chocolate Chip</a></li>
-        <li><a href="">Chocolate Peanut Butter</a></li>
-        <li><a href="">Coffee</a></li>
-        <li><a href="">Cookies &anp; Cream</a></li>
-        <li><a href="">Dulce de Leche</a></li>
-        <li><a href="">Green Tea</a></li>
-        <li><a href="">Java Chip</a></li>
-        <li><a href="">Mint Chip</a></li>
-        <li><a href="">Pineapple Coconut</a></li>
-        <li><a href="">Pistachio</a></li>
-        <li><a href="">Pralines &amp; Cream</a></li>
-        <li><a href="">Rocky Road</a></li>
-        <li><a href="">Rum Raisin</a></li>
-        <li><a href="">Strawberry</a></li>
-        <li><a href="">Vanilla</a></li>
-        <li><a href="">Vanilla Chocolate Chip</a></li>
-        <li><a href="">Vanilla Swiss Almond</a></li>
-        <li><a href="">White Chocolate Raspberry Truffle</a></li>
+    <div class="dropdowns">
+      <div class="wrapper">
+        <nav class="products collection">
+          <header>COLLECTION</header>
+          <ul>
+            <li><a href="">Classic</a></li>
+            <li><a href="">Five Ingredients</a></li>
+            <li><a href="">Exotic</a></li>
+            <li><a href="">Vanilla</a></li>
+            <li><a href="">Chocolate</a></li>
+            <li><a href="">Caramel</a></li>
+            <li><a href="">Fruit</a></li>
+            <li><a href="">Nutty</a></li>
+            <li><a href="">Coffee</a></li>
+            <li><a href="">Surprise Me</a></li>
+          </ul>
+        </nav>
+        <nav class="products product">
+          <header>PRODUCTS</header>
+          <ul>
+            <li><a href="">Ice Cream</a></li>
+            <li><a href="">Bars</a></li>
+            <li><a href="">Gelato</a></li>
+            <li><a href="">Sorbet</a></li>
+            <li><a href="">Frozen Yogurt</a></li>
+          </ul>
+        </nav>
+        <nav class="products flavor">
+          <header>FLAVOR</header>
+          <ul>
+            <li><a href="">Butter Pecan</a></li>
+            <li><a href="">Caramel Cone</a></li>
+            <li><a href="">Cherry Vanilla</a></li>
+            <li><a href="">Chocolate</a></li>
+            <li><a href="">Chocolate Chip Cookie Dough</a></li>
+            <li><a href="">Chocolate Chocolate Chip</a></li>
+            <li><a href="">Chocolate Peanut Butter</a></li>
+            <li><a href="">Coffee</a></li>
+            <li><a href="">Cookies &anp; Cream</a></li>
+            <li><a href="">Dulce de Leche</a></li>
+            <li><a href="">Green Tea</a></li>
+            <li><a href="">Java Chip</a></li>
+            <li><a href="">Mint Chip</a></li>
+            <li><a href="">Pineapple Coconut</a></li>
+            <li><a href="">Pistachio</a></li>
+            <li><a href="">Pralines &amp; Cream</a></li>
+            <li><a href="">Rocky Road</a></li>
+            <li><a href="">Rum Raisin</a></li>
+            <li><a href="">Strawberry</a></li>
+            <li><a href="">Vanilla</a></li>
+            <li><a href="">Vanilla Chocolate Chip</a></li>
+            <li><a href="">Vanilla Swiss Almond</a></li>
+            <li><a href="">White Chocolate Raspberry Truffle</a></li>
 
-        <li><a href="">Applewood Smoked Caramel Almond</a></li>
-        <li><a href="">Banana Rum Jam</a></li>
-        <li><a href="">Chocolate Caramelized Oat</a></li>
-        <li><a href="">Ginger Molasses Cookie</a></li>
-        <li><a href="">Spiced Pecan Turtle</a></li>
-        <li><a href="">Tres Leches Brigadeiro</a></li>
+            <li><a href="">Applewood Smoked Caramel Almond</a></li>
+            <li><a href="">Banana Rum Jam</a></li>
+            <li><a href="">Chocolate Caramelized Oat</a></li>
+            <li><a href="">Ginger Molasses Cookie</a></li>
+            <li><a href="">Spiced Pecan Turtle</a></li>
+            <li><a href="">Tres Leches Brigadeiro</a></li>
 
-        <li><a href="">Peppermint Bark</a></li>
-        
-        <li><a href="">Black Cherry Amaretto</a></li>
-        <li><a href="">Cappuccino</a></li>
-        <li><a href="">Caramelized Banana Chip</a></li>
-        <li><a href="">Dark Chocolate Chip</a></li>
-        <li><a href="">Limoncello</a></li>
-        <li><a href="">Pomegranate Swirl</a></li>
-        <li><a href="">Sea Salt Caramel</a></li>
-        <li><a href="">Stracciatella</a></li>
-        <li><a href="">Tiramisu</a></li>
+            <li><a href="">Peppermint Bark</a></li>
+            
+            <li><a href="">Black Cherry Amaretto</a></li>
+            <li><a href="">Cappuccino</a></li>
+            <li><a href="">Caramelized Banana Chip</a></li>
+            <li><a href="">Dark Chocolate Chip</a></li>
+            <li><a href="">Limoncello</a></li>
+            <li><a href="">Pomegranate Swirl</a></li>
+            <li><a href="">Sea Salt Caramel</a></li>
+            <li><a href="">Stracciatella</a></li>
+            <li><a href="">Tiramisu</a></li>
 
-        <li><a href="">Mango</a></li>
-        <li><a href="">Orchard Peach</a></li>
-        <li><a href="">Raspberry</a></li>
-        <li><a href="">Zesty Lemon</a></li>
+            <li><a href="">Mango</a></li>
+            <li><a href="">Orchard Peach</a></li>
+            <li><a href="">Raspberry</a></li>
+            <li><a href="">Zesty Lemon</a></li>
 
-        <li><a href="">Coffee</a></li>
-        <li><a href="">Vanilla</a></li>
-        <li><a href="">Vanilla Raspberry Swirl</a></li>
+            <li><a href="">Coffee</a></li>
+            <li><a href="">Vanilla</a></li>
+            <li><a href="">Vanilla Raspberry Swirl</a></li>
 
-        <li><a href="">Caramel Cone</a></li>
-        <li><a href="">Chocolate</a></li>
-        <li><a href="">Chocolate Peanut Butter </a></li>
-        <li><a href="">Coffee</a></li>
-        <li><a href="">Dulce De Leche</a></li>
-        <li><a href="">Strawberry</a></li>
-        <li><a href="">Vanilla</a></li>
-        <li><a href="">Tres Leches Brigadeiro</a></li>
-        <li><a href="">Sea Salt Caramel</a></li>
-        <li><a href="">Tiramisu</a></li>
+            <li><a href="">Caramel Cone</a></li>
+            <li><a href="">Chocolate</a></li>
+            <li><a href="">Chocolate Peanut Butter </a></li>
+            <li><a href="">Coffee</a></li>
+            <li><a href="">Dulce De Leche</a></li>
+            <li><a href="">Strawberry</a></li>
+            <li><a href="">Vanilla</a></li>
+            <li><a href="">Tres Leches Brigadeiro</a></li>
+            <li><a href="">Sea Salt Caramel</a></li>
+            <li><a href="">Tiramisu</a></li>
 
-        <li><a href="">Chocolate Dark Chocolate</a></li>
-        <li><a href="">Salted Caramel</a></li>
-        <li><a href="">Vanilla Chocolate Peanut Butter</a></li>
-        <li><a href="">Vanilla Milk Chocolate</a></li>
-        <li><a href="">Vanilla Milk Chocolate Almond</a></li>
+            <li><a href="">Chocolate Dark Chocolate</a></li>
+            <li><a href="">Salted Caramel</a></li>
+            <li><a href="">Vanilla Chocolate Peanut Butter</a></li>
+            <li><a href="">Vanilla Milk Chocolate</a></li>
+            <li><a href="">Vanilla Milk Chocolate Almond</a></li>
 
-        <li><a href="">Honey Milk Chocolate Graham</a></li>
-        <li><a href="">Strawberry Dark Chocolate</a></li>
-        <li><a href="">Tiramisu Dark Chocolate</a></li>
-        <li><a href="">Vanilla Caramel Pizzelle</a></li>
+            <li><a href="">Honey Milk Chocolate Graham</a></li>
+            <li><a href="">Strawberry Dark Chocolate</a></li>
+            <li><a href="">Tiramisu Dark Chocolate</a></li>
+            <li><a href="">Vanilla Caramel Pizzelle</a></li>
 
-        <li><a href="">Coffee Almond Crunch Snack Size</a></li>
-        <li><a href="">Vanilla Milk Chocolate Almond Snack Size</a></li>
-      </ul>
-    </nav>
+            <li><a href="">Coffee Almond Crunch Snack Size</a></li>
+            <li><a href="">Vanilla Milk Chocolate Almond Snack Size</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="allergens">
+      gluten free
+    </div> 
+    <div class="sizes">
+      small
+    </div>
   </section>
   <section class="module">
     <article class="product">
@@ -200,12 +210,6 @@
     <article class="product">
       <a href="">
         <div class="hero"><img src="images/all-products-hero-1.jpg" alt=""></div>
-        <div class="product-name">ice cream</div>
-      </a>
-    </article>
-    <article class="product">
-      <a href="">
-        <div class="hero"><img src="images/all-products-hero-2.jpg" alt=""></div>
         <div class="product-name">ice cream</div>
       </a>
     </article>

@@ -1,15 +1,49 @@
 .all_products {
+  > header {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 2.5;
+    text-align: center;
+    @include tablet {
+      font-size: 30px;
+    }
+  }
   nav {
     &.products {
       @include flex(1 0 33%);
+      position: relative;
+      &.product {
+        border-left: 1px solid $color-grey;
+        border-right: 1px solid $color-grey;
+      }
       header {
-        border: 1px solid $color-darkgrey;
-        color: $color-darkgrey;
+        color: $color-grey;
+        cursor: pointer;
         font-size: 14px;
-        @include show-tablet-up(inline-block);
+        line-height: 3;
+        padding: 0 10px;
+        @include show-tablet-up(block);
       }
       ul {
+        background-color: $color-white;
+        border: 1px solid $color-grey;
+        border-top: 0 transparent;
         display: none;
+        left: -1px;
+        padding: 10px 0;
+        position: absolute;
+        z-index: 5;
+        &.active {
+          display: block;
+        }
+        a {
+          color: $color-grey;
+          display: block;
+          line-height: 2;
+          padding: 0 10px;
+          text-transform: uppercase;
+        }
       }
     }
     &.filter {
@@ -32,7 +66,13 @@
   }
   section {
     &.filters {
-      @include flexbox();
+      margin: 0 auto 25px;
+      max-width: 850px;
+      > div {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+      }
     }
     &.module {
       @include tablet {
@@ -42,8 +82,11 @@
     }
   }
   article {
-    &.product {      
+    &.product {
       @include tablet {
+        @include flex(0 0 33.3%);
+      }
+      @include desktop {
         @include flex(0 0 25%);
       }
       a {
@@ -55,6 +98,9 @@
       position: relative; 
       text-align: center;
       @include tablet {
+        @include flex(0 0 66.6%);
+      }
+      @include desktop {
         @include flex(0 0 50%);
       }
       .copy {
@@ -93,6 +139,17 @@
     }
   }
   div {
+    &.dropdowns {  
+      max-width: 565px;
+      .wrapper {
+        border: 1px solid $color-grey;
+        @include flexbox();
+      }
+    }
+    &.allergens,
+    &.sizes {
+      max-width: 275px;
+    }
     &.hero {
       line-height: 0;
       margin: 0;
