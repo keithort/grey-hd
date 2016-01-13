@@ -52,6 +52,10 @@
           line-height: 1.1;
           padding: 5px 10px;
           text-transform: uppercase;
+          &.active {
+            color: $color-black;
+            text-decoration: underline;            
+          }
         }
       }
     }
@@ -76,14 +80,33 @@
   section {
     &.filters {
       margin: 0 auto 25px;
-      max-width: 80%;
-      @include tablet {
-        max-width: 850px;
+      max-width: 90%;
+      @include desktop {
+        max-width: 1000px;
       }
       > div {
-      @include show-tablet-up(inline-block);
+        margin: 0 auto;
         vertical-align: top;
         width: 100%;
+        @include tablet {
+          display: block;
+        }
+        @include desktop {
+          display: inline-block;
+        }
+        &.allergens {
+          @include tablet-only {
+            margin: 20px auto;
+          }
+          @include desktop {
+            margin-right: 20px;
+          }
+        }
+        &.sizes {
+          @include desktop {
+            margin-left: calc(100% - 300px);
+          }
+        }
       }
     }
     &.module {
@@ -152,7 +175,11 @@
   }
   div {
     &.dropdowns {
-      max-width: 565px;
+      @include desktop {
+        display: inline-block;
+        padding: 0 20px 0 0;
+        max-width: calc(100% - 340px);
+      }
       .wrapper {
         border: 1px solid $color-grey;
         @include tablet {
@@ -161,11 +188,21 @@
       }
     }
     &.allergens {
+      @include tablet {
+        margin: 20px 5% 0 0;
+        max-width: 60%;
+      }
+      @include desktop {
+        float: right;
+        margin: 0 20px 10px 20px;
+        max-width: 275px;
+      }
       .wrapper {
         @include flexbox();
         flex-flow: wrap;
         margin: 10px 0;
         @include tablet {
+          clear: both;
           margin: 0;
         }
       }
@@ -173,20 +210,83 @@
         @include flex(0 0 50%);
         border: 1px solid $color-grey;
         color: $color-grey;
-        line-height: 2.1;
+        font-size: 11px;
+        line-height: 2.5;
         padding-left: 25px;
         position: relative;
         @include tablet {
-          @include flex(0 0 25%);
+          @include flex(0 0 25%);          
         }
         @include desktop {
           @include flex(0 0 50%);
         }
+        &:nth-child(1),
+        &:nth-child(2) {
+          @include omit-tablet-only {
+            border-bottom: 0;
+          }
+        }
+        &:nth-child(even) {
+          @include omit-tablet-only {
+            border-left: 0;
+          }
+        }
+        &:not(:first-child) {
+          @include tablet-only {
+            border-left: 0;
+          }
+        }
       }
     }
-    &.allergens,
     &.sizes {
-      max-width: 275px;
+      margin-top: 20px;
+      max-width: 300px;
+      @include tablet {
+        max-width: 40%;
+      }
+      @include desktop {
+        margin-top: 0;
+        max-width: 300px;
+      }
+      a {
+        background: url('../images/sprite-sizes.jpg') no-repeat;
+        background-size: 150px;
+        color: $color-grey;
+        display: inline-block;
+        font-size: 11px;
+        margin: 0 7px;
+        padding-top: 30px;
+        &.quart {
+          background-position: 13px 9px;
+          &.active {
+            background-position: 13px -35px;
+          }
+        }
+        &.oz {
+          background-position: -28px 9px;
+          &.active {
+            background-position: -28px -35px;
+          }
+        }
+        &.cup {
+          background-position: -62px 9px;
+          &.active {
+            background-position: -62px -35px;
+          }
+        }
+        &.bar {
+          background-position: -93px 11px;
+          &.active {
+            background-position: -93px -35px;
+          }
+        }
+        &.snack {
+          background-position: -111px 9px;
+          &.active {
+            background-position: -111px -35px;
+          }
+        }
+      }
     }
     &.hero {
       line-height: 0;

@@ -146,7 +146,11 @@
       </div>
     </div> 
     <div class="sizes">
-      small
+      <a class="quart" href="">QUART</a>
+      <a class="oz" href="">14 OZ</a>
+      <a class="cup" href="">CUP</a>
+      <a class="bar" href="">BAR</a>
+      <a class="snack" href="">SNACK SIZE</a>
     </div>
   </section>
   <section class="module">

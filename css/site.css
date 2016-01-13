@@ -640,7 +640,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
     top: -1px;
     width: 15px; }
 .all_products input[type="checkbox"]:checked + label span {
-  background-color: red; }
+  border-color: red; }
 input[type="submit"] {
   background-color: #000000;
   border: 1px solid #000000;
@@ -1008,6 +1008,9 @@ section.also-like {
       line-height: 1.1;
       padding: 5px 10px;
       text-transform: uppercase; }
+      .all_products nav.products ul a.active {
+        color: #000000;
+        text-decoration: underline; }
 .all_products nav.filter header {
   display: inline-block; }
   @media (min-width: 750px) {
@@ -1022,17 +1025,29 @@ section.also-like {
   padding: 0; }
 .all_products section.filters {
   margin: 0 auto 25px;
-  max-width: 80%; }
-  @media (min-width: 750px) {
+  max-width: 90%; }
+  @media (min-width: 1100px) {
     .all_products section.filters {
-      max-width: 850px; } }
+      max-width: 1000px; } }
   .all_products section.filters > div {
-    display: none;
+    margin: 0 auto;
     vertical-align: top;
     width: 100%; }
     @media (min-width: 750px) {
       .all_products section.filters > div {
+        display: block; } }
+    @media (min-width: 1100px) {
+      .all_products section.filters > div {
         display: inline-block; } }
+    @media (min-width: 750px) and (max-width: 1100px) {
+      .all_products section.filters > div.allergens {
+        margin: 20px auto; } }
+    @media (min-width: 1100px) {
+      .all_products section.filters > div.allergens {
+        margin-right: 20px; } }
+    @media (min-width: 1100px) {
+      .all_products section.filters > div.sizes {
+        margin-left: calc(100% - 300px); } }
 @media (min-width: 750px) {
   .all_products section.module {
     display: -webkit-box;
@@ -1105,17 +1120,29 @@ section.also-like {
           font-size: 12px;
           line-height: 3;
           padding: 0 15%; } }
-.all_products div.dropdowns {
-  max-width: 565px; }
-  .all_products div.dropdowns .wrapper {
-    border: 1px solid #a5a5a5; }
-    @media (min-width: 750px) {
-      .all_products div.dropdowns .wrapper {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex; } }
+@media (min-width: 1100px) {
+  .all_products div.dropdowns {
+    display: inline-block;
+    padding: 0 20px 0 0;
+    max-width: calc(100% - 340px); } }
+.all_products div.dropdowns .wrapper {
+  border: 1px solid #a5a5a5; }
+  @media (min-width: 750px) {
+    .all_products div.dropdowns .wrapper {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex; } }
+@media (min-width: 750px) {
+  .all_products div.allergens {
+    margin: 20px 5% 0 0;
+    max-width: 60%; } }
+@media (min-width: 1100px) {
+  .all_products div.allergens {
+    float: right;
+    margin: 0 20px 10px 20px;
+    max-width: 275px; } }
 .all_products div.allergens .wrapper {
   display: -webkit-box;
   display: -moz-box;
@@ -1126,6 +1153,7 @@ section.also-like {
   margin: 10px 0; }
   @media (min-width: 750px) {
     .all_products div.allergens .wrapper {
+      clear: both;
       margin: 0; } }
 .all_products div.allergens .box {
   -webkit-box-flex: 0 0 50%;
@@ -1135,7 +1163,8 @@ section.also-like {
   flex: 0 0 50%;
   border: 1px solid #a5a5a5;
   color: #a5a5a5;
-  line-height: 2.1;
+  font-size: 11px;
+  line-height: 2.5;
   padding-left: 25px;
   position: relative; }
   @media (min-width: 750px) {
@@ -1152,8 +1181,53 @@ section.also-like {
       -webkit-flex: 0 0 50%;
       -ms-flex: 0 0 50%;
       flex: 0 0 50%; } }
-.all_products div.allergens, .all_products div.sizes {
-  max-width: 275px; }
+  @media (min-width: 1100px), (max-width: 750px) {
+    .all_products div.allergens .box:nth-child(1), .all_products div.allergens .box:nth-child(2) {
+      border-bottom: 0; } }
+  @media (min-width: 1100px), (max-width: 750px) {
+    .all_products div.allergens .box:nth-child(even) {
+      border-left: 0; } }
+  @media (min-width: 750px) and (max-width: 1100px) {
+    .all_products div.allergens .box:not(:first-child) {
+      border-left: 0; } }
+.all_products div.sizes {
+  margin-top: 20px;
+  max-width: 300px; }
+  @media (min-width: 750px) {
+    .all_products div.sizes {
+      max-width: 40%; } }
+  @media (min-width: 1100px) {
+    .all_products div.sizes {
+      margin-top: 0;
+      max-width: 300px; } }
+  .all_products div.sizes a {
+    background: url("../images/sprite-sizes.jpg") no-repeat;
+    background-size: 150px;
+    color: #a5a5a5;
+    display: inline-block;
+    font-size: 11px;
+    margin: 0 7px;
+    padding-top: 30px; }
+    .all_products div.sizes a.quart {
+      background-position: 13px 9px; }
+      .all_products div.sizes a.quart.active {
+        background-position: 13px -35px; }
+    .all_products div.sizes a.oz {
+      background-position: -28px 9px; }
+      .all_products div.sizes a.oz.active {
+        background-position: -28px -35px; }
+    .all_products div.sizes a.cup {
+      background-position: -62px 9px; }
+      .all_products div.sizes a.cup.active {
+        background-position: -62px -35px; }
+    .all_products div.sizes a.bar {
+      background-position: -93px 11px; }
+      .all_products div.sizes a.bar.active {
+        background-position: -93px -35px; }
+    .all_products div.sizes a.snack {
+      background-position: -111px 9px; }
+      .all_products div.sizes a.snack.active {
+        background-position: -111px -35px; }
 .all_products div.hero {
   line-height: 0;
   margin: 0;

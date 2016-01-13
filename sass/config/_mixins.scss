@@ -3,7 +3,16 @@
     @content;
   }
 }
-
+@mixin tablet-only {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin omit-tablet-only {
+  @media (min-width: #{$desktop-width}), (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
 @mixin desktop {
   @media (min-width: #{$desktop-width}) {
     @content;
