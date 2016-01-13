@@ -20,13 +20,13 @@
 <section class="header">
   <!--#include file="modules/nav-logo.shtml"-->
   <!--#include file="modules/nav-primary.shtml"-->
-  <!--#include file="modules/nav-secondary-home.shtml"-->
+  <!--#include file="modules/nav-secondary-products.shtml"-->
 </section>
 
 <main class="all_products">
   <header>all products</header>
   <section class="filters">
-    <button>FILTERS</button>
+    <button>FILTER</button>
     <div class="dropdowns">
       <div class="wrapper">
         <nav class="products collection">
@@ -65,7 +65,7 @@
             <li><a href="">Chocolate Chocolate Chip</a></li>
             <li><a href="">Chocolate Peanut Butter</a></li>
             <li><a href="">Coffee</a></li>
-            <li><a href="">Cookies &anp; Cream</a></li>
+            <li><a href="">Cookies &amp; Cream</a></li>
             <li><a href="">Dulce de Leche</a></li>
             <li><a href="">Green Tea</a></li>
             <li><a href="">Java Chip</a></li>
@@ -138,7 +138,12 @@
       </div>
     </div>
     <div class="allergens">
-      gluten free
+      <div class="wrapper">
+        <div class="box"><input type="checkbox" name="gluten-free"><label for="gluten-free"><span></span>GLUTEN-FREE</label></div>
+        <div class="box"><input type="checkbox" name="dairy-free"><label for="dairy-free"><span></span>DAIRY-FREE</label></div>
+        <div class="box"><input type="checkbox" name="non-gmo"><label for="non-gmo"><span></span>NON-GMO</label></div>
+        <div class="box"><input type="checkbox" name="nut-free"><label for="nut-free"><span></span>NUT-FREE</label></div>
+      </div>
     </div> 
     <div class="sizes">
       small

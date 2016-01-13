@@ -5,7 +5,6 @@
       $(this).next().removeClass('active');
       return;
     }
-
     $(this).closest('.wrapper').find('ul').each(function(index) {
       $(this).removeClass('active');
     });
@@ -13,8 +12,11 @@
       'top': $(this).height() + 'px',
       'width' : $(this).closest('nav').width() + 2 + 'px'
     });
-    
   });
+  $('.all_products .filters button').on('click', function() {
+    $(this).siblings().toggle();
+  })
+
 
   // Product Details
   var infoHeight = $('main.product_details .hero').height() > $('main.product_details .dek').height() ? $('.product_details .hero').height() : $('.product_details .dek').height() || 0,
@@ -29,6 +31,6 @@
   // Contact 
   $('.about_contact a.expand').on('click', function(el) {
     el.preventDefault();
-    $(this).next().slideToggle('.25s');
+    $(this).next().slideToggle('.1s');
   });
 }(jQuery))
