@@ -369,6 +369,7 @@ img {
   width: 100%; }
 
 a {
+  color: #000000;
   text-decoration: none; }
 
 h3 {
@@ -639,8 +640,6 @@ input[type="text"], input[type="tel"], input[type="email"] {
     position: absolute;
     top: -1px;
     width: 15px; }
-.all_products input[type="checkbox"]:checked + label span {
-  border-color: red; }
 input[type="submit"] {
   background-color: #000000;
   border: 1px solid #000000;
@@ -1248,7 +1247,7 @@ section.also-like {
   padding: 0; }
 .all_products div.product-name {
   font-size: 16px;
-  line-height: 2.5;
+  line-height: 4.5;
   text-align: center; }
 .all_products button {
   background-color: #ffffff;
@@ -1962,5 +1961,29 @@ body.product_details aside.discover {
         font-size: 12px;
         line-height: 3;
         padding: 0 15%; } }
+
+.about_faq header {
+  text-align: center; }
+.about_faq article {
+  margin: 0 auto;
+  max-width: 650px; }
+  .about_faq article a {
+    text-decoration: underline; }
+.about_faq h2,
+.about_faq h3 {
+  font-size: 25px;
+  font-weight: 400; }
+.about_faq h2 {
+  display: none; }
+  @media (min-width: 750px) {
+    .about_faq h2 {
+      display: block; } }
+@media (min-width: 750px) {
+  .about_faq h3 {
+    display: none; } }
+.about_faq h4 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: .5em; }
 
 /*# sourceMappingURL=site.css.map */

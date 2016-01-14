@@ -15,10 +15,11 @@
       $(this).removeClass('active');
     });
     // Position and size the dropdown correctly
+    // We have to add 2px of width the the nav for tablets and up so the borders line up
     var navWidth = $(window).width() < 750 ? $(this).closest('nav').width() + 'px' : $(this).closest('nav').width() + 2 + 'px'
     $(this).addClass('active');
     $(this).next().addClass('active').css({
-      'top': $(this).height() + 'px',
+      'top'   : $(this).height() + 'px',
       'width' : $(this).closest('nav').width() + 2 + 'px'
     });
   });

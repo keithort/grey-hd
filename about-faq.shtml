@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Häagen-Dazs® - FAQs</title>
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link type="text/css" rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6125072/713328/css/fonts.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:url"           content="https://www.facebook.com/HaagenDazsUS" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Häagen-Dazs®" />
+  <meta property="og:description"   content="For Placement Only" />
+</head>
+<body>
+
+<section class="header">
+  <!--#include file="modules/nav-logo.shtml"-->
+  <!--#include file="modules/nav-primary.shtml"-->
+  <!--#include file="modules/nav-secondary-about.shtml"-->
+</section>	
+
+<main class="about_faq">
+  <section>
+    <header>
+      <h2>frequently asked questions</h2>
+      <h3>faq</h3>
+      <img src="images/about-faq.jpg">
+    </header>
+    <article>
+      <h4>product information</h4>
+      <p><strong>do your products contain gluten?</strong></p>
+      <p>as a general rule, the gluten in our frozen dessert products is present only in added bakery products such as cookies, cake, or brownies. all products that are gluten-free are clearly marked as such on the packaging and the website.
+      <p><strong>what is rBST?</strong></p>
+      <p>rBST is a synthetic hormone given to dairy cows to enhance milk production. We do not source any milk or cream from cows that have been treated with rBST†.</p>
+      <p><strong>where can I find my favorite Häagen-Dazs® flavor?</strong></p>
+      <p>go to our flavor finder® page, select a flavor from the drop-down, enter your zip code, and search. we'll show you a list, based on your zip code, of stores that carry the flavor in your area.</p>
+      <p><strong>are your products kosher?</strong></p>
+      <p>our U.S. retail grocery, club, and convenience store products are OU-D kosher, certified by the Kashrut division of the Union of Orthodox Jewish Congregations of America. products at our Häagen-Dazs® Shops and restaurants are not necessarily certified kosher because of the utensils and other ingredients used to serve frozen desserts or drinks.</p>
+      <p><strong>do you pasteurize your fruit ingredients?</strong></p>
+      <p>all our fruit is pasteurized using the high-temp/short-time method, which kills all of the bad bacteria.</p>
+      <p><strong>do any of your products contain animal derivatives other than pork in gelatin?</strong></p>
+      <p>eggs and milk are animal-derived, but as two of the eight major allergens, they are always disclosed in the ingredient statement. there may be eggs in some inclusions such as cookie dough, and eggs are sometimes used as a stabilizing ingredient. aside from the gelatin in the marshmallows and marshmallow variegates, we have no other ingredients that are animal-derived.</p>
+      <p><strong>what stabilizers do you use in your products?</strong></p>
+      <p>in keeping with our philosophy of using only the purest ingredients, we use only eggs to stabilize Häagen-Dazs. all our eggs are completely pasteurized.</p>
+      <p><strong>do your products contain alcohol?</strong></p>
+      <p>several of our ice cream products contain alcohol. the alcohol is used as an agent to carry flavor in our super-premium ice cream.</p>
+      <p><strong>do you make low-fat or nonfat products?</strong></p>
+      <p>all of the Häagen-Dazs sorbet products are nonfat, with the exception of chocolate sorbet. Häagen-Dazs frozen yogurt flavors are low fat.</p>
+      <p><strong>do you have more nutrition information?</strong></p>
+      <p>nutrition information is available on each of the individual flavor pages within the products section. please check there or the product packaging. for more information, feel free to send us an e-mail.</p>
+      <p><strong>what is considered to be a single portion of Häagen-Dazs® ice cream?</strong></p>
+      <p>as portion guidance, a single serving for an active male is approximately 1 cup, or the size of his fist. a single serving for an active female is approximately ½ cup, or the size of a tennis ball.</p>
+      
+      <h4>product storage and serving</h4>
+      <p><strong>what's the best temperature for product storage?</strong></p>
+      <p>Häagen-Dazs products are best stored at home, unopened, at 0 degrees F (-18 degrees C). for extended storage up to the "best before" date, we recommend -10 degrees F (-23.3 degrees C) or colder, when possible.</p>
+      <p><strong>how do I know if my Häagen-Dazs product is at its best quality?</strong></p>
+      <p>when kept at the recommended storage temperature, Häagen-Dazs products are excellent through the "best before" date found on the package. a "best before" date is found on the bottom of each carton and end flap of the bar packaging.</p>
+      <p><strong>how should I serve my Häagen-Dazs products?</strong></p>
+      <p>to deliver the best flavor and texture, allow your Häagen-Dazs products to soften at room temperature for approximately 10 minutes, depending on the actual room temperature and the temperature of your freezer.</p>
+      <p><strong>can Häagen-Dazs products be refrozen after they've thawed?</strong></p>
+      <p>no. because we make Häagen-Dazs products in the most natural way possible, Häagen-Dazs products should not be refrozen if thawed. thawing and refreezing can create large ice crystals and cause undesirable grainy/gritty textures or diminished quality.</p>
+
+      <h4>promotions and offers</h4>
+      <p><strong>how can I find out more about Häagen-Dazs ice cream?</strong></p>
+      <p><strong><a href="">join us</a></strong> on Facebook. </p>
+      <p>join Häagen-Dazs Shops Ice Cream Social Club.</p>
+
+      <h4>Häagen-Dazs shops</h4>
+      <p><strong>how can I find the Häagen-Dazs Shop nearest me?</strong></p>
+      <p>use the store locator on this website to search by your city and state or by your zip code.</p>
+      <p><strong>where can I order an ice cream cake?</strong></p>
+      <p>we currently do not offer ice cream cakes by mail order, but select Häagen-Dazs Shops do carry ice cream cakes. please use the store locator on this website to find a shop near you. to confirm availability, call ahead and allow 48 hours of lead time.</p>
+      <p><strong>do Häagen-Dazs Shops carry the same Häagen-Dazs flavors as supermarkets?</strong></p>
+      <p>retail grocery stores and Häagen-Dazs Shops carry many of the same Häagen-Dazs flavors, but some are unique and vary by location. please use the flavor finder to locate a retail store near you, or contact your local shop for flavor availability.</p>
+      <p><strong>can I purchase a gift certificate for Häagen-Dazs Shops?</strong></p>
+      <p>yes. you may purchase Häagen-Dazs gift cards at participating Häagen-Dazs Shops. they make great gifts and company rewards.</p>
+      <p><strong>how can I get information on Häagen-Dazs Shop franchises?</strong></p>
+      <p>we seek motivated franchisees to bring the Häagen-Dazs made like no other® experience to customers. if you are interested, please contact one of the following offices or visit the Häagen-Dazs Shop franchise online.</p>
+      <p><strong>whom do I contact regarding media coverage?</strong></p>
+      <p>Rebecca Maas</p>
+      <p>Nestlé Dreyer's Ice Cream Company </p>
+      <p>5929 College Avenue</p>
+      <p>Oakland, CA 94618</p>
+      <p>phone: (510) 601-4338</p>
+      <p>e-mail: <a href="mailto:Rebecca.Maas@us.nestle.com">Rebecca.Maas@us.nestle.com</a></p>
+      <p><strong>whom do I contact regarding employment opportunities?</strong></p>
+      <p>in the United States: <a href="">click here</a></p>
+      
+      <p>†No significant difference has been shown between milk from rBST treated and non-rBST treated cows. The suppliers of our other ingredients cannot guarantee that the milk they use comes from non-rBST treated cows.</p>
+    </article>
+  </section>
+</main>
+
+<!--#include file="modules/footer.shtml"-->
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/picturefill.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<script type="text/javascript" src="js/carousels.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
+</body>
+</html>
