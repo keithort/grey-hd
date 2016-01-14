@@ -30,7 +30,7 @@
     <div class="dropdowns">
       <div class="wrapper">
         <nav class="products collection">
-          <header>COLLECTION</header>
+          <header>COLLECTION <span></span></header>
           <ul>
             <li><a href="">Classic</a></li>
             <li><a href="">Five Ingredients</a></li>
@@ -45,7 +45,7 @@
           </ul>
         </nav>
         <nav class="products product">
-          <header>PRODUCTS</header>
+          <header>PRODUCTS <span></span></header>
           <ul>
             <li><a href="">Ice Cream</a></li>
             <li><a href="">Bars</a></li>
@@ -55,7 +55,7 @@
           </ul>
         </nav>
         <nav class="products flavor">
-          <header>FLAVOR</header>
+          <header>FLAVOR <span></span></header>
           <ul>
             <li><a href="">Butter Pecan</a></li>
             <li><a href="">Caramel Cone</a></li>

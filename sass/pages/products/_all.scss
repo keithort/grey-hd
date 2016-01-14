@@ -31,6 +31,24 @@
         font-size: 14px;
         line-height: 4;
         padding: 0 10px;
+        position: relative;
+        span {
+          background: url('../images/products-arrow-down.jpg') 0 0 no-repeat;
+          background-size: 100%;
+          display: block;
+          height: 10px;
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 15px;
+        }
+        &.active {
+          span {
+            background: url('../images/products-arrow-up.jpg') 0 0 no-repeat;
+            background-size: 100%;
+          }
+        }
       }
       ul {
         background-color: $color-white;

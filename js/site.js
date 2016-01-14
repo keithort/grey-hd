@@ -5,7 +5,8 @@
   // Filter configuration
   $('.all_products nav.products header').on('click', function(el) {
     // Remove .active and exit when clicking already active dropdown
-    if ($(this).next().hasClass('active')) {
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active');
       $(this).next().removeClass('active');
       return;
     }
@@ -14,6 +15,8 @@
       $(this).removeClass('active');
     });
     // Position and size the dropdown correctly
+    var navWidth = $(window).width() < 750 ? $(this).closest('nav').width() + 'px' : $(this).closest('nav').width() + 2 + 'px'
+    $(this).addClass('active');
     $(this).next().addClass('active').css({
       'top': $(this).height() + 'px',
       'width' : $(this).closest('nav').width() + 2 + 'px'
