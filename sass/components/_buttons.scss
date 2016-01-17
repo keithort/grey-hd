@@ -55,6 +55,21 @@ a {
     max-width: 200px;
     padding: 0 25px;
     text-align: center;
+  } 
+  &.search-results {
+    border: 1px solid $color-grey;
+    clear: both;
+    color: $color-grey;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 2;
+    margin: 3% auto 0;
+    padding: 0 4%;
+    text-align: center;
+    text-transform: uppercase;
+    @include tablet {
+      font-size: 15px;
+    }
   }
 }
 

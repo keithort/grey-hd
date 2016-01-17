@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Häagen-Dazs® - Search Results</title>
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6125072/713328/css/fonts.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:url"           content="https://www.facebook.com/HaagenDazsUS" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Häagen-Dazs®" />
+  <meta property="og:description"   content="For Placement Only" />
+</head>
+<body>
+
+<section class="header">
+  <!--#include file="modules/nav-logo.shtml"-->
+  <!--#include file="modules/nav-primary.shtml"-->
+  <aside class="results">
+    <span class="count">5</span> search results: <span class="query">strawberry</span>
+  </aside>
+</section>	
+
+<main class="search_results">
+  <article class="result">
+    <div class="wrap">
+      <div class="hero"><img src="images/all-products-hero-1.jpg" alt=""></div>
+      <div class="name">
+        <strong>ICE CREAM: </strong> Strawberry
+      </div>
+      <div class="dek">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero amet laudantium doloremque eveniet cum itaque nemo.
+        <p><a href="" class="search-results">SEE FLAVOR</a></p>
+      </div>
+    </div>
+  </article>
+  <article class="result">
+    <div class="wrap">
+      <div class="hero"><img src="images/all-products-hero-1.jpg" alt=""></div>
+      <div class="name">
+        <strong>ICE CREAM: </strong> Strawberry
+      </div>
+      <div class="dek">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero amet laudantium doloremque eveniet cum itaque nemo.
+        <p><a href="" class="search-results">SEE FLAVOR</a></p>
+      </div>
+    </div>
+  </article>
+  <article class="result">
+    <div class="wrap">
+      <div class="hero"><img src="images/all-products-hero-1.jpg" alt=""></div>
+      <div class="name">
+        <strong>ICE CREAM: </strong> Strawberry
+      </div>
+      <div class="dek">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero amet laudantium doloremque eveniet cum itaque nemo.
+        <p><a href="" class="search-results">SEE FLAVOR</a></p>
+      </div>
+    </div>
+  </article>
+  <article class="result">
+    <div class="wrap">
+      <div class="hero"><img src="images/all-products-hero-1.jpg" alt=""></div>
+      <div class="name">
+        <strong>ICE CREAM: </strong> Strawberry
+      </div>
+      <div class="dek">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero amet laudantium doloremque eveniet cum itaque nemo.
+        <p><a href="" class="search-results">SEE FLAVOR</a></p>
+      </div>
+    </div>
+  </article>
+  <article class="result">
+    <div class="wrap">
+      <div class="hero"><img src="images/all-products-hero-1.jpg" alt=""></div>
+      <div class="name">
+        <strong>ICE CREAM: </strong> Strawberry
+      </div>
+      <div class="dek">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero amet laudantium doloremque eveniet cum itaque nemo.
+        <p><a href="" class="search-results">SEE FLAVOR</a></p>
+      </div>
+    </div>
+  </article>
+</main>
+
+<!--#include file="modules/footer.shtml"-->
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/picturefill.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
+</body>
+</html>

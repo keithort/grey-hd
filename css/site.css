@@ -574,6 +574,20 @@ a.brown-link, button.send-message {
   max-width: 200px;
   padding: 0 25px;
   text-align: center; }
+a.search-results {
+  border: 1px solid #a5a5a5;
+  clear: both;
+  color: #a5a5a5;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 2;
+  margin: 3% auto 0;
+  padding: 0 4%;
+  text-align: center;
+  text-transform: uppercase; }
+  @media (min-width: 750px) {
+    a.search-results {
+      font-size: 15px; } }
 
 div.disclaimers {
   border: 1px solid #a5a5a5;
@@ -954,6 +968,63 @@ section.also-like {
     background: url("../images/index-arrow-hero-next.png") 0 0 no-repeat;
     background-size: contain;
     right: 20%; }
+
+.header .results {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center; }
+  @media (min-width: 750px) {
+    .header .results {
+      font-size: 24px; } }
+
+.search_results article.result {
+  overflow: auto;
+  padding: 5%; }
+  .search_results article.result:not(:last-of-type) {
+    border-bottom: 1px solid #a5a5a5; }
+.search_results div.wrap {
+  margin: 0 auto;
+  max-width: 650px; }
+.search_results div.hero, .search_results div.name {
+  display: inline-block; }
+.search_results div.hero {
+  float: left;
+  line-height: 0;
+  padding: 0 10% 5% 0;
+  width: 49%; }
+  @media (min-width: 750px) {
+    .search_results div.hero {
+      padding-bottom: 0;
+      width: 39%; } }
+.search_results div.name {
+  padding-top: 15%;
+  vertical-align: middle;
+  width: 50%; }
+  @media (min-width: 750px) {
+    .search_results div.name {
+      padding-top: 0;
+      width: 60%; } }
+.search_results div.dek {
+  clear: both; }
+  @media (min-width: 750px) {
+    .search_results div.dek {
+      display: inline-block;
+      padding: 10px 0;
+      width: 60%; } }
+  .search_results div.dek strong {
+    display: block; }
+    @media (min-width: 750px) {
+      .search_results div.dek strong {
+        display: inline; } }
+  .search_results div.dek p:last-child {
+    margin: 10px 0 0 0;
+    text-align: center; }
+    @media (min-width: 750px) {
+      .search_results div.dek p:last-child {
+        text-align: left; } }
 
 .all_products > header {
   font-size: 18px;

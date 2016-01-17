@@ -1,0 +1,76 @@
+.header {
+  .results {
+    background-color: $color-black;
+    color: $color-white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    @include tablet {
+      font-size: 24px;
+    }
+  }
+}
+.search_results {
+  article {
+    &.result {
+      overflow: auto;
+      padding: 5%;
+      &:not(:last-of-type) {
+        border-bottom: 1px solid $color-grey;
+      }
+    }
+  }
+  div {
+    &.wrap {
+      margin: 0 auto;
+      max-width: 650px;
+    }
+    &.hero,
+    &.name {
+      display: inline-block;
+    }
+    &.hero {
+      float: left;
+      line-height: 0;
+      padding: 0 10% 5% 0;
+      width: 49%;
+      @include tablet {
+        padding-bottom: 0;
+        width: 39%;
+      }
+    }
+    &.name {
+      padding-top: 15%;
+      vertical-align: middle;
+      width: 50%;
+      @include tablet {
+        padding-top: 0;
+        width: 60%;
+      }
+    }
+    &.dek {
+      clear: both;
+      @include tablet {
+        display: inline-block;
+        padding: 10px 0;
+        width: 60%;
+      }
+      strong {
+        display: block;
+        @include tablet {
+          display: inline;
+        }
+      }
+      p {
+        &:last-child {
+          margin: 10px 0 0 0;
+          text-align: center;
+          @include tablet {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
